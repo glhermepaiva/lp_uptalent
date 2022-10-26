@@ -1,0 +1,346 @@
+.uptalentLogoG {
+    background-image: url(../assets/logog.png);
+    width: 248px;
+    height: 74px;
+}
+
+.menuOpcoes {
+    display: none;
+}
+.tituloMain {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.textoMain {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.tituloServicos {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 50px;
+    color: #E7CA29;
+}
+
+.textoServicos {
+    font-size: 30px;
+    line-height:40px;
+}
+
+.topicoServicos {
+    font-size: 30px;
+    line-height: 30px;
+    color: #E7CA29;
+}
+
+.bgDiferencial {
+    background-color: #57B89B;
+    border-radius: 30px;
+}
+
+.tituloDiferencial {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 50px;
+    color: #fff;
+}
+
+.textoDiferencial {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.botaoDiferencial {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 50px;
+    color: #EABD11;
+    background: black;
+    border-radius: 50px;
+}
+
+.tituloClientes {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 50px;
+    color: #EABD11;
+}
+
+.bgClientes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 2px #EABD11;
+    border-radius: 20px;
+}
+
+.yoLogo {
+    background-image: url(../assets/logoyo.png);
+    width: 186px;
+    height: 135px;
+}
+
+.tripLogo {
+    background-image: url(../assets/logotrip.png);
+    width: 387px;
+    height: 47px;
+}
+
+.pointLogo {
+    background-image: url(../assets/logopoint.png);
+    width: 238px;
+    height: 89px;
+}
+
+.tituloEquipe {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 50px;
+}
+
+.fotoFabi {
+    background-image: url(../assets/fotofabi.png);
+    width: 387px;
+    height: 387px;
+}
+
+.fotoCarol {
+    background-image: url(../assets/fotocarol.png);
+    width: 387px;
+    height: 387px;
+}
+
+.tituloFabi {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.textoFabi {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.tituloCarol {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.textoCarol {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.tituloContratacao {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 50px;
+}
+
+.contratacaoPontual {
+    background-color: red;
+}
+
+.fotoPontual {
+    background-image: url(../assets/contratacaopontual.png);
+    width: 197px;
+    height: 212px;
+}
+
+.tituloPontual {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.textoPontual {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.contratacaoFee {
+    background-color: green;
+}
+
+.fotoFee {
+    background-image: url(../assets/contratacaofee.png);
+    width: 216px;
+    height: 216px;
+}
+
+.tituloFee {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.textoFee {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.contratacaoHub {
+    background-color: blue;
+}
+
+.fotoHub {
+    background-image: url(../assets/contratacaohub.png);
+    width: 300px;
+    height: 171px;
+}
+
+.tituloHub {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.textoHub {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.bgContato {
+    background-color: #291234;
+    color: #fff;
+    height: 1050px;
+    border-radius: 30px;
+}
+
+.tituloContato {
+    color: #DF887C;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 50px;
+}
+
+.textoContato {
+    color: #fff;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.nomeContato {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+}
+
+.emailContato {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+}
+
+.telefoneContato {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+}
+
+.assuntoContato {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+}
+
+.mensagemContato {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+}
+
+.botaoContato {
+    background-color: #57B89B;
+    width: 188px;
+    height: 54px;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+}
+
+.emailtituloContato {
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.emailendContato {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.endtituloContato {
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.enderecoContato {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.mapaContato {
+    background-image: url(../assets/mapa.png);
+    width: 698px;
+    height: 495px;
+    transform: scale(0.5);
+    margin: -100px 0 0 -142px;
+}
+
+.uptalentLogoP {
+    background-image: url(../assets/logop.png);
+    width: 123px;
+    height: 37px;
+    margin: 0 auto;
+}
+
+.sociais {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoFacebook {
+    background-image: url(../assets/facebook.png);
+    width: 16px;
+    height: 35px;
+}
+
+.logoInstagram {
+    background-image: url(../assets/instagram.png);
+    width: 36px;
+    height: 36px;
+}
+
+.logoLinkedin {
+    background-image: url(../assets/linkedin.png);
+    width: 31px;
+    height: 29px;
+}
+
+.copyright{
+    font-size: 12px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.menuOpcoes2 {
+    display: none;
+}
+
+
+
+
