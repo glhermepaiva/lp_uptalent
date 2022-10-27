@@ -69,6 +69,7 @@ export default function LandingPage() {
 
 
       <div className={styles.tituloClientes}>Nossos clientes</div>
+      <div className={styles.greenBar} />
       <div className={styles.bgClientes}>
         <div className={styles.yoLogo} />
         <div className={styles.tripLogo} />
@@ -77,6 +78,7 @@ export default function LandingPage() {
 
 
       <div className={styles.tituloEquipe}>Conheça nossa equipe</div>
+      <div className={styles.yellowBar} />
       <div>
         <div className={styles.fotoFabi} />
         <div className={styles.tituloFabi}>Fabiana Secchis</div>

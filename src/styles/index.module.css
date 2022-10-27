@@ -251,41 +251,65 @@
 
 .tituloClientes {
     font-weight: bold;
-    font-size: 60px;
-    line-height: 50px;
+    font-size: 40px;
+    line-height: 40px;
     color: #EABD11;
+    width: 300px;
+    margin: 80px auto 10px auto;
+}
+
+.greenBar {
+    width: 60px;
+    height: 10px;
+    background-color: #57B89B;
+    margin: 0 auto 30px auto;
 }
 
 .bgClientes {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     border: solid 2px #EABD11;
     border-radius: 20px;
+    width: 90vw;
+    margin: 0 auto;
 }
 
 .yoLogo {
-    background-image: url(../assets/logoyo.png);
-    width: 186px;
-    height: 135px;
+    background-image: url(../assets/mobile/logoyo.png);
+    width: 140px;
+    height: 101px;
+    margin: 50px 0 50px 0;
 }
 
 .tripLogo {
-    background-image: url(../assets/logotrip.png);
-    width: 387px;
-    height: 47px;
+    background-image: url(../assets/mobile/logotrip.png);
+    width: 290px;
+    height: 35px;
+    margin: 50px 0 50px 0;
 }
 
 .pointLogo {
-    background-image: url(../assets/logopoint.png);
-    width: 238px;
-    height: 89px;
+    background-image: url(../assets/mobile/logopoint.png);
+    width: 179px;
+    height: 67px;
+    margin: 50px 0 50px 0;
 }
 
 .tituloEquipe {
     font-weight: bold;
-    font-size: 60px;
-    line-height: 50px;
+    font-size: 30px;
+    line-height: 40px;
+    width: 320px;
+    margin: 50px auto 15px auto;
+}
+
+.yellowBar {
+    width: 60px;
+    height: 10px;
+    background-color: #EABD11;
+    margin: 0 auto 50px auto;
 }
 
 .fotoFabi {
