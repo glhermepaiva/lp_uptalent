@@ -25,25 +25,45 @@ export default function LandingPage() {
         <div>Contato</div>
       </div>
 
-
+      <div className={styles.imgHero} />
       <div className={styles.tituloMain}>Talentos que voam, para sua empresa decolar.</div>
       <div className={styles.textoMain}>Recrutamos o que há de melhor no mercado digital para seu negócio voar alto.</div>
+      <div className={styles.blackBar} />
       
 
       <div className={styles.tituloServicos}>Serviços</div>
+      <div className={styles.imgAnalyst} />
       <div className={styles.textoServicos}>Uma consultoria em RH focada em recrutamento e seleção de profissionais da área digital.</div>
-      <div>
-        <div className={styles.topicoServicos}>Recrutamento e seleção.</div>
-        <div className={styles.topicoServicos}>Entrevista de desligamento.</div>
-        <div className={styles.topicoServicos}>One a one após 3 meses do início do colaborador.</div>
-        <div className={styles.topicoServicos}>Welcome kit personalizado (fazer diagnóstico)</div>
-        <div className={styles.topicoServicos}>Recrutamento Taylor Made</div>
+      <div className={styles.containerServicos}>
+        <div className={styles.topicoServicos1}>
+          <div className={styles.svc1} />
+          <div className={styles.svcTexto1}>Recrutamento e seleção</div>
+        </div>
+        <div className={styles.topicoServicos2}>
+          <div className={styles.svc2} />
+          <div className={styles.svcTexto2}>Entrevista de desligamento</div>
+        </div>
+        <div className={styles.topicoServicos3}>
+          <div className={styles.svc3} />
+          <div className={styles.svcTexto3}>One a one após 3 meses do início do colaborador</div>
+        </div>
+        <div className={styles.topicoServicos4}>
+          <div className={styles.svc4} />
+          <div className={styles.svcTexto4}>Welcome kit personalizado (fazer diagnóstico)</div>
+        </div>
+        <div className={styles.topicoServicos5}>
+          <div className={styles.svc5} />
+          <div className={styles.svcTexto5}>Recrutamento Taylor Made</div>
+        </div>
       </div>
 
 
       <div className={styles.bgDiferencial}>
         <div className={styles.tituloDiferencial}>Nosso diferencial</div>
+        <div className={styles.imgBall} />
+        <div className={styles.purpleBar} />
         <div className={styles.textoDiferencial}>Uma consultoria de RH focada em recrutamento e seleção de profissionais da área digital. Prezamos pela qualidade da seleção, prazo e assertividade. Com passagens desde 2008, em grandes agências e consultorias sempre focada no digital como por exemplo: Predicta, Isobar e DBG. Com foco em R&S, estruturação do departamento de R.H, entrevistas de desligamentos, mapeamento de áreas, pesquisa de clima e qualidade de vida para os colaboradores.</div>
+        <div className={styles.imgIdea} />
         <div className={styles.botaoDiferencial}>Conheça mais</div>
       </div>
 

@@ -1,65 +1,251 @@
+.page {
+    overflow: hidden;
+    width: 100vw;
+    position: relative;
+}
+
 .uptalentLogoG {
     background-image: url(../assets/logog.png);
     width: 248px;
     height: 74px;
+    margin: 20px;
 }
 
 .menuOpcoes {
     display: none;
 }
+
+.imgHero{
+    background-image: url(../assets/mobile/hero.png);
+    width: 800px;
+    height: 1015px;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    top: -190px;
+}
+
 .tituloMain {
     font-weight: bold;
     font-size: 60px;
     line-height: 60px;
+    margin: 20px;
 }
 
 .textoMain {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height: 22px;
+    width: 260px;
+    margin: 0 0 0 20px;
+}
+
+.blackBar {
+    width: 50px;
+    height: 12px;
+    background-color: #000;
+    margin: 50px 0 0 220px;
+}
+
+.imgAnalyst{
+    background-image: url(../assets/mobile/analyst.png);
+    width: 456px;
+    height: 300px;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    margin: -130px 0 0 0;
 }
 
 .tituloServicos {
     font-weight: bold;
-    font-size: 60px;
-    line-height: 50px;
-    color: #E7CA29;
+    font-size: 40px;
+    line-height: 40px;
+    color: #fff;
+    margin: 180px 0 20px 240px;
 }
 
 .textoServicos {
-    font-size: 30px;
-    line-height:40px;
+    font-size: 20px;
+    line-height: 22px;
+    width: 250px;
+    margin: 0 0 0px 145px;
+    text-align: right;
 }
 
-.topicoServicos {
-    font-size: 30px;
-    line-height: 30px;
+.containerServicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    width: 370px;
+    margin: 100px auto 50px auto;
+}
+
+.topicoServicos1 {
+    font-size: 15px;
+    line-height: 20px;
     color: #E7CA29;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px 45px 0;
+}
+
+.topicoServicos2 {
+    font-size: 15px;
+    line-height: 20px;
+    color: #E7CA29;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px 0 0;
+}
+
+.topicoServicos3 {
+    font-size: 15px;
+    line-height: 20px;
+    color: #E7CA29;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.topicoServicos4 {
+    font-size: 15px;
+    line-height: 20px;
+    color: #E7CA29;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 10px 0 -30px;
+}
+
+.topicoServicos5 {
+    font-size: 15px;
+    line-height: 20px;
+    color: #E7CA29;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.svc1 {
+    background-image: url(../assets/mobile/svc1.png);
+    width: 58px;
+    height: 58px;
+    margin: 0 0 10px 0;
+}
+
+.svc2 {
+    background-image: url(../assets/mobile/svc2.png);
+    width: 58px;
+    height: 58px;
+    margin: 0 0 10px 0;
+}
+
+.svc3 {
+    background-image: url(../assets/mobile/svc3.png);
+    width: 58px;
+    height: 42px;
+    margin: 0 0 10px 0;
+}
+
+.svc4 {
+    background-image: url(../assets/mobile/svc4.png);
+    width: 58px;
+    height: 59px;
+    margin: 0 0 10px 0;
+}
+
+.svc5 {
+    background-image: url(../assets/mobile/svc5.png);
+    width: 58px;
+    height: 58px;
+    margin: 0 0 10px 0;
 }
 
 .bgDiferencial {
     background-color: #57B89B;
     border-radius: 30px;
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .tituloDiferencial {
     font-weight: bold;
-    font-size: 60px;
-    line-height: 50px;
+    font-size: 30px;
+    line-height: 40px;
     color: #fff;
+    margin: 50px 0 10px 50px;
+}
+
+.imgBall {
+    background-image: url(../assets/mobile/ball.png);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: 0;
+    overflow: hidden;
+    margin: -110px 0 0 -515px;
+    transform: rotate(280deg);
+}
+
+.purpleBar {
+    width: 60px;
+    height: 10px;
+    background-color: #291234;
+    margin: 0px 0 50px 50px;
 }
 
 .textoDiferencial {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 16px;
+    line-height: 22px;
+    width: 70vw;
+    margin: 0 0 0 -40px;
+}
+
+.imgIdea{
+    background-image: url(../assets/mobile/idea.png);
+    width: 422px;
+    height: 300px;
+    position: absolute;
+    z-index: 0;
+    overflow: hidden;
+    margin: 200px 0 0 650px;
 }
 
 .botaoDiferencial {
     font-weight: bold;
-    font-size: 60px;
-    line-height: 50px;
+    font-size: 25px;
+    line-height: 40px;
     color: #EABD11;
-    background: black;
+    background: #291234;
     border-radius: 50px;
+    margin: 30px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 60px;
+    cursor: pointer;
 }
 
 .tituloClientes {
@@ -294,11 +480,10 @@
 }
 
 .mapaContato {
-    background-image: url(../assets/mapa.png);
-    width: 698px;
-    height: 495px;
-    transform: scale(0.5);
-    margin: -100px 0 0 -142px;
+    background-image: url(../assets/mobile/mapa.png);
+    width: 350px;
+    height: 248px;
+    margin: 15px auto 0 auto;
 }
 
 .uptalentLogoP {
