@@ -312,195 +312,309 @@
     margin: 0 auto 50px auto;
 }
 
-.fotoFabi {
-    background-image: url(../assets/fotofabi.png);
-    width: 387px;
-    height: 387px;
+.containerEquipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.fotoCarol {
-    background-image: url(../assets/fotocarol.png);
-    width: 387px;
-    height: 387px;
+.containerFabi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 30px 0;
+}
+
+.fotoFabi {
+    background-image: url(../assets/mobile/fotofabi.png);
+    width: 300px;
+    height: 300px;
 }
 
 .tituloFabi {
     font-weight: bold;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 22px;
+    line-height: 30px;
+    margin: 20px 0 0 0;
 }
 
 .textoFabi {
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.containerCarol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 30px 0;
+}
+
+.fotoCarol {
+    background-image: url(../assets/mobile/fotocarol.png);
+    width: 300px;
+    height: 300px;
 }
 
 .tituloCarol {
     font-weight: bold;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 22px;
+    line-height: 30px;
+    margin: 20px 0 0 0;
 }
 
 .textoCarol {
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.bgContratacao {
+    background-image: url(../assets/mobile/bgcontratacao.png);
+    width: 1898px;
+    height: 1898px;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    left: -730px;
+    margin: 40px 0 0 0;
 }
 
 .tituloContratacao {
     font-weight: bold;
-    font-size: 60px;
-    line-height: 50px;
+    font-size: 30px;
+    line-height: 40px;
+    width: 350px;
+    margin: 140px auto 50px auto;
+    color: #291234;
+}
+
+.whiteBar {
+    width: 60px;
+    height: 12px;
+    background-color: #fff;
+    margin: -40px auto 50px auto;
+}
+
+.imgGear {
+    background-image: url(../assets/mobile/gear.png);
+    width: 490px;
+    height: 300px;
+    position: absolute;
+    z-index: 0;
+    overflow: hidden;
+    margin: 0 0 0 290px;
+}
+
+.imgBall2 {
+    background-image: url(../assets/mobile/ball2.png);
+    width: 204px;
+    height: 219px;
+    position: absolute;
+    z-index: 0;
+    overflow: hidden;
+    margin: 380px 0 0 -120px;
+    transform: rotate(240deg);
+}
+
+.containerContratacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
 }
 
 .contratacaoPontual {
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 20px 0;
 }
 
 .fotoPontual {
-    background-image: url(../assets/contratacaopontual.png);
-    width: 197px;
-    height: 212px;
+    background-image: url(../assets/mobile/contratacaopontual.png);
+    width: 99px;
+    height: 106px;
 }
 
 .tituloPontual {
     font-weight: bold;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 22px;
+    line-height: 30px;
 }
 
 .textoPontual {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 18px;
+    line-height: 30px;
     text-align: center;
 }
 
 .contratacaoFee {
-    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 20px 0;
 }
 
 .fotoFee {
-    background-image: url(../assets/contratacaofee.png);
-    width: 216px;
-    height: 216px;
+    background-image: url(../assets/mobile/contratacaofee.png);
+    width: 108px;
+    height: 108px;
 }
 
 .tituloFee {
     font-weight: bold;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 22px;
+    line-height: 30px;
 }
 
 .textoFee {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 18px;
+    line-height: 30px;
     text-align: center;
 }
 
 .contratacaoHub {
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 90px 0;
 }
 
 .fotoHub {
-    background-image: url(../assets/contratacaohub.png);
-    width: 300px;
-    height: 171px;
+    background-image: url(../assets/mobile/contratacaohub.png);
+    width: 150px;
+    height: 86px;
 }
 
 .tituloHub {
     font-weight: bold;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 22px;
+    line-height: 30px;
 }
 
 .textoHub {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 18px;
+    line-height: 30px;
     text-align: center;
 }
 
 .bgContato {
     background-color: #291234;
     color: #fff;
-    height: 1050px;
+    height: 1310px;
     border-radius: 30px;
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .tituloContato {
     color: #DF887C;
     font-weight: bold;
-    font-size: 60px;
-    line-height: 50px;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 80px 0 0 0;
+}
+
+.aquaBar {
+    width: 60px;
+    height: 12px;
+    background-color: #57B89B;
+    margin: 10px auto 70px auto;
 }
 
 .textoContato {
     color: #fff;
-    font-size: 30px;
-    line-height: 50px;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    width: 260px;
+    margin: 0px 0 50px 0;
 }
 
 .nomeContato {
     background-color: #fff;
     border-radius: 5px;
-    margin: 0 0 10px 0;
+    margin: 0 0 30px 0;
+    width: 300px;
+    padding: 3px;
 }
 
 .emailContato {
     background-color: #fff;
     border-radius: 5px;
-    margin: 0 0 10px 0;
+    margin: 0 0 30px 0;
+    padding: 3px;
 }
 
 .telefoneContato {
     background-color: #fff;
     border-radius: 5px;
-    margin: 0 0 10px 0;
-}
-
-.assuntoContato {
-    background-color: #fff;
-    border-radius: 5px;
-    margin: 0 0 10px 0;
+    margin: 0 0 30px 0;
+    padding: 3px;
 }
 
 .mensagemContato {
     background-color: #fff;
     border-radius: 5px;
-    margin: 0 0 10px 0;
+    margin: 0 0 30px 0;
+    padding: 0 0 100px 0;
 }
 
 .botaoContato {
     background-color: #57B89B;
-    width: 188px;
-    height: 54px;
+    width: 141px;
+    height: 41px;
     color: #000;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 28px;
+    cursor: pointer;
+}
+
+.imgBall3 {
+    background-image: url(../assets/mobile/ball3.png);
+    width: 144px;
+    height: 200px;
+    position: absolute;
+    z-index: 0;
+    overflow: hidden;
+    margin: 650px 0 0 320px;
+    transform: rotate(280deg);
+}
+
+.infosContato {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0 40px 0;
+    width: 280px;
 }
 
 .emailtituloContato {
-    font-size: 20px;
-    line-height: 50px;
+    font-size: 15px;
+    line-height: 30px;
 }
 
 .emailendContato {
-    font-size: 30px;
-    line-height: 50px;
+    font-size: 20px;
+    line-height: 30px;
     font-weight: bold;
 }
 
 .endtituloContato {
-    font-size: 20px;
-    line-height: 50px;
+    font-size: 15px;
+    line-height: 30px;
 }
 
 .enderecoContato {
-    font-size: 30px;
-    line-height: 50px;
+    font-size: 20px;
+    line-height: 30px;
     font-weight: bold;
 }
 
@@ -511,40 +625,52 @@
     margin: 15px auto 0 auto;
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
 .uptalentLogoP {
-    background-image: url(../assets/logop.png);
+    background-image: url(../assets/mobile/logop.png);
     width: 123px;
     height: 37px;
-    margin: 0 auto;
+    margin: 50px 0 30px 30px;
+    cursor: pointer;
 }
 
 .sociais {
     display: flex;
     justify-content: space-around;
+    width: 200px;
+    margin: -70px 0 0 205px;
 }
 
 .logoFacebook {
     background-image: url(../assets/facebook.png);
     width: 16px;
     height: 35px;
+    cursor: pointer;
 }
 
 .logoInstagram {
     background-image: url(../assets/instagram.png);
     width: 36px;
     height: 36px;
+    cursor: pointer;
 }
 
 .logoLinkedin {
     background-image: url(../assets/linkedin.png);
     width: 31px;
     height: 29px;
+    cursor: pointer;
 }
 
 .copyright{
-    font-size: 12px;
+    font-size: 10px;
     line-height: 40px;
     text-align: center;
+    margin: 20px 0 10px 0;
 }
 
 .menuOpcoes2 {

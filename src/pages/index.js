@@ -79,79 +79,90 @@ export default function LandingPage() {
 
       <div className={styles.tituloEquipe}>Conheça nossa equipe</div>
       <div className={styles.yellowBar} />
-      <div>
-        <div className={styles.fotoFabi} />
-        <div className={styles.tituloFabi}>Fabiana Secchis</div>
-        <div className={styles.textoFabi}>Sócia Diretora</div>
-      </div>
-      <div>
-        <div className={styles.fotoCarol} />
-        <div className={styles.tituloCarol}>Caroline Secchis</div>
-        <div className={styles.textoCarol}>Consultora de Talentos</div>
+      <div className={styles.containerEquipe}>
+        <div className={styles.containerFabi}>
+          <div className={styles.fotoFabi} />
+          <div className={styles.tituloFabi}>Fabiana Secchis</div>
+          <div className={styles.textoFabi}>Sócia Diretora</div>
+        </div>
+        <div className={styles.containerCarol}>
+          <div className={styles.fotoCarol} />
+          <div className={styles.tituloCarol}>Caroline Secchis</div>
+          <div className={styles.textoCarol}>Consultora de Talentos</div>
+        </div>
       </div>
       
 
-
+      <div className={styles.bgContratacao} />
       <div className={styles.tituloContratacao}>Modelos de contratação</div>
+      <div className={styles.whiteBar}></div>
+      <div className={styles.imgGear}></div>
+      <div className={styles.imgBall2}></div>
       <div>
-        <div className={styles.contratacaoPontual}>
-          <div className={styles.fotoPontual} />
-          <div className={styles.tituloPontual}>Job Pontual</div>
-          <div className={styles.textoPontual}>Contrato pot vaga</div>
-        </div>
-        <div className={styles.contratacaoFee}>
-          <div className={styles.fotoFee} />
-          <div className={styles.tituloFee}>Fee por período</div>
-          <div className={styles.textoFee}>Com a quantidade de vagas a combinar</div>
-        </div>
-        <div className={styles.contratacaoHub}>
-          <div className={styles.fotoHub} />
-          <div className={styles.tituloHub}>Hub dedicado</div>
-          <div className={styles.textoHub}>para atender o RH da empresa</div>
+        <div className={styles.containerContratacao}>
+          <div className={styles.contratacaoPontual}>
+            <div className={styles.fotoPontual} />
+            <div className={styles.tituloPontual}>Job Pontual</div>
+            <div className={styles.textoPontual}>Contrato pot vaga</div>
+          </div>
+          <div className={styles.contratacaoFee}>
+            <div className={styles.fotoFee} />
+            <div className={styles.tituloFee}>Fee por período</div>
+            <div className={styles.textoFee}>Com a quantidade de vagas a combinar</div>
+          </div>
+          <div className={styles.contratacaoHub}>
+            <div className={styles.fotoHub} />
+            <div className={styles.tituloHub}>Hub dedicado</div>
+            <div className={styles.textoHub}>para atender o RH da empresa</div>
+          </div>
         </div>
       </div>
 
 
       <div className={styles.bgContato}>
         <div className={styles.tituloContato}>Contato</div>
+        <div className={styles.aquaBar}></div>
         <div className={styles.textoContato}>Vamos bater um papo? <b>Manda uma mensagem pra gente e diz como podemos te ajudar hoje.</b></div>
         <div>
           <div className={styles.nomeContato}>Nome</div>
           <div className={styles.emailContato}>Email</div>
           <div className={styles.telefoneContato}>Telefone</div>
-          <div className={styles.assuntoContato}>Assunto</div>
           <div className={styles.mensagemContato}>Mensagem</div>
           <div className={styles.botaoContato}>Enviar</div>
         </div>
-        <div className={styles.emailtituloContato}>Email</div>
-        <div className={styles.emailendContato}>fabi@uptalentrh.com.br</div>
-        <div className={styles.endtituloContato}>Endereço</div>
-        <div className={styles.enderecoContato}>Avenida Lorem Ipsum, 000
-          00º andar - Vila Lorem Ipsum
-          00000-000 - São Paulo, SP</div>
+        <div className={styles.imgBall3}></div>
+        <div className={styles.infosContato}>
+          <div className={styles.emailtituloContato}>Email</div>
+          <div className={styles.emailendContato}>fabi@uptalentrh.com.br</div>
+          <div className={styles.endtituloContato}>Endereço</div>
+          <div className={styles.enderecoContato}>Avenida Lorem Ipsum, 000
+            00º andar - Vila Lorem Ipsum
+            00000-000 - São Paulo, SP
+          </div>
+        </div>
+        
         <div className={styles.mapaContato} />
       </div>
 
 
-      <div className={styles.uptalentLogoP} />
-
-      <div className={styles.menuOpcoes2}>
-        <div>Serviços</div>
-        <div>Nosso diferencial</div>
-        <div>Nossos clientes</div>
-        <div>A equipe</div>
-        <div>Modelo de contratação</div>
-        <div>Contato</div>
+      <div className={styles.footer}>
+        <div className={styles.uptalentLogoP} />
+        <div className={styles.menuOpcoes2}>
+          <div>Serviços</div>
+          <div>Nosso diferencial</div>
+          <div>Nossos clientes</div>
+          <div>A equipe</div>
+          <div>Modelo de contratação</div>
+          <div>Contato</div>
+        </div>
+        <div className={styles.sociais}>
+          <div className={styles.logoFacebook} />
+          <div className={styles.logoInstagram} />
+          <div className={styles.logoLinkedin} />
+        </div>
+        <div className={styles.copyright}>Copyright © 2022 Up Talent</div>
       </div>
-
-      <div className={styles.sociais}>
-        <div className={styles.logoFacebook} />
-        <div className={styles.logoInstagram} />
-        <div className={styles.logoLinkedin} />
-      </div>
-
-
-      <div className={styles.copyright}>Copyright © 2022 Up Talent</div>
+      
 
     </div>
   )
