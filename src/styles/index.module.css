@@ -375,8 +375,9 @@
     position: absolute;
     z-index: -1;
     overflow: hidden;
-    left: -730px;
+    left: -740px;
     margin: 40px 0 0 0;
+    align-self: center;
 }
 
 .tituloContratacao {
@@ -412,7 +413,7 @@
     position: absolute;
     z-index: 0;
     overflow: hidden;
-    margin: 380px 0 0 -120px;
+    margin: 380px 0 0 -125px;
     transform: rotate(240deg);
 }
 
@@ -586,7 +587,7 @@
     position: absolute;
     z-index: 0;
     overflow: hidden;
-    margin: 650px 0 0 320px;
+    margin: 650px 0 0 350px;
     transform: rotate(280deg);
 }
 
@@ -621,8 +622,8 @@
 
 .mapaContato {
     background-image: url(../assets/mobile/mapa.png);
-    width: 350px;
-    height: 248px;
+    width: 340px;
+    height: 241px;
     margin: 15px auto 0 auto;
 }
 
@@ -635,7 +636,7 @@
     background-image: url(../assets/mobile/logop.png);
     width: 123px;
     height: 37px;
-    margin: 50px 0 30px 30px;
+    margin: 50px 0 30px 20px;
     cursor: pointer;
 }
 
@@ -643,7 +644,7 @@
     display: flex;
     justify-content: space-around;
     width: 200px;
-    margin: -70px 0 0 205px;
+    margin: -70px 0 0 195px;
 }
 
 .logoFacebook {
@@ -671,7 +672,7 @@
     font-size: 10px;
     line-height: 40px;
     text-align: center;
-    margin: 20px 0 10px 0;
+    margin: 40px 0 10px 0;
 }
 
 .menuOpcoes2 {
