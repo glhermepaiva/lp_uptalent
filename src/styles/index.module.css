@@ -375,7 +375,7 @@
     position: absolute;
     z-index: -1;
     overflow: hidden;
-    left: -740px;
+    left: -750px;
     margin: 40px 0 0 0;
     align-self: center;
 }
@@ -413,7 +413,7 @@
     position: absolute;
     z-index: 0;
     overflow: hidden;
-    margin: 380px 0 0 -125px;
+    margin: 390px 0 0 -125px;
     transform: rotate(240deg);
 }
 
@@ -636,7 +636,7 @@
     background-image: url(../assets/mobile/logop.png);
     width: 123px;
     height: 37px;
-    margin: 50px 0 30px 20px;
+    margin: 50px 0 30px 15px;
     cursor: pointer;
 }
 
@@ -644,7 +644,7 @@
     display: flex;
     justify-content: space-around;
     width: 200px;
-    margin: -70px 0 0 195px;
+    margin: -70px 0 0 190px;
 }
 
 .logoFacebook {
