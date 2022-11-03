@@ -34,6 +34,7 @@ export default function LandingPage() {
       <div className={styles.tituloServicos}>Serviços</div>
       <div className={styles.imgAnalyst} />
       <div className={styles.textoServicos}>Uma consultoria em RH focada em recrutamento e seleção de profissionais da área digital.</div>
+      <div className={styles.greenBar1} />
       <div className={styles.containerServicos}>
         <div className={styles.topicoServicos1}>
           <div className={styles.svc1} />

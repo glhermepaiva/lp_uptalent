@@ -681,5 +681,250 @@
 }
 
 
+@media (min-width: 768px) and (max-width:1199px) {
 
+    .uptalentLogoG {
+        background-image: url(../assets/tablet/logog.png);
+        width: 248px;
+        height: 74px;
+        margin: 40px;
+    }
 
+    .imgHero{
+        background-image: url(../assets/tablet/hero.png);
+        width: 1200px;
+        height: 1523px;
+        top: -400px;
+        left: 160px;
+    }
+
+    .tituloMain {
+        font-size: 60px;
+        line-height: 60px;
+        width: 686px;
+        margin: 40px 20px 20px 40px;
+    }
+    
+    .textoMain {
+        font-size: 30px;
+        line-height: 40px;
+        width: 466px;
+        margin: 0 0 0 40px;
+    }
+    
+    .blackBar {
+        width: 50px;
+        height: 12px;
+        margin: 80px 0 0 380px;
+    }
+
+    .imgAnalyst{
+        background-image: url(../assets/tablet/analyst.png);
+        width: 684px;
+        height: 450px;
+        margin: -220px 0 0 30px;
+    }
+    
+    .tituloServicos {
+        font-size: 60px;
+        line-height: 50px;
+        margin: 350px 0 20px 520px;
+    }
+    
+    .textoServicos {
+        font-size: 30px;
+        line-height: 40px;
+        width: 420px;
+        margin: 60px 0 0px 330px;
+        text-align: right;
+    }
+
+    .greenBar1 {
+        width: 60px;
+        height: 12px;
+        background-color: #57B89B;
+        margin: -150px 0 0px 610px;
+    }
+
+    .containerServicos {
+        justify-content: space-between;
+        align-items: baseline;
+        width: 640px;
+        margin: 210px 0 120px 150px;
+    }
+    
+    .topicoServicos1 {
+        margin: 0 10px 0px 0;
+    }
+    
+    .topicoServicos2 {
+        margin: 0 10px 0 10px;
+    }
+    
+    .topicoServicos3 {
+        margin: 0 10px 0 10px;
+    }
+    
+    .topicoServicos4 {
+        margin: 0 10px 0 10px;
+    }
+    
+    .topicoServicos5 {
+        margin: 0 0px 0 10px;
+    }
+    
+    .tituloDiferencial {
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 40px;
+        margin: 50px 0 20px 20px;
+    }
+    
+    .imgBall {
+        margin: -120px 0 0 -750px;
+    }
+    
+    .purpleBar {
+        width: 60px;
+        height: 12px;
+        margin: 0px 0 50px 45px;
+    }
+    
+    .textoDiferencial {
+        font-size: 16px;
+        line-height: 22px;
+        width: 52vw;
+        margin: 0 auto 0 173px;
+    }
+    
+    .imgIdea{
+        background-image: url(../assets/tablet/idea.png);
+        width: 703px;
+        height: 500px;
+        margin: 100px 0 0 1220px;
+    }
+
+    .tituloClientes {
+        font-size: 50px;
+        line-height: 40px;
+        width: 360px;
+        margin: 100px auto 20px auto;
+    }
+    
+    .greenBar {
+        width: 64px;
+        height: 12px;
+        margin: 0 auto 50px auto;
+    }
+    
+    .yoLogo {
+        background-image: url(../assets/tablet/logoyo.png);
+        width: 186px;
+        height: 135px;
+        margin: 50px 0 50px 0;
+    }
+    
+    .tripLogo {
+        background-image: url(../assets/tablet/logotrip.png);
+        width: 387px;
+        height: 47px;
+        margin: 50px 0 50px 0;
+    }
+    
+    .pointLogo {
+        background-image: url(../assets/tablet/logopoint.png);
+        width: 238px;
+        height: 89px;
+        margin: 50px 0 50px 0;
+    }
+
+    .tituloEquipe {
+        font-size: 50px;
+        line-height: 40px;
+        width: 520px;
+        margin: 80px auto 30px auto;
+    }
+    
+    .yellowBar {
+        width: 68px;
+        height: 12px;
+        background-color: #EABD11;
+        margin: 0 auto 80px auto;
+    }
+    
+    .containerEquipe {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 700px;
+        margin: 0 auto;
+    }
+    
+    .containerFabi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 30px 0;
+    }
+    
+    .fotoFabi {
+        background-image: url(../assets/mobile/fotofabi.png);
+        width: 300px;
+        height: 300px;
+    }
+    
+    .tituloFabi {
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 30px;
+        margin: 20px 0 0 0;
+    }
+    
+    .textoFabi {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .containerCarol {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 30px 0;
+    }
+    
+    .fotoCarol {
+        background-image: url(../assets/mobile/fotocarol.png);
+        width: 300px;
+        height: 300px;
+    }
+    
+    .tituloCarol {
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 30px;
+        margin: 20px 0 0 0;
+    }
+    
+    .textoCarol {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+
+@media (min-width: 1400px) and (max-width: 1599px) {
+
+}
+
+@media (min-width: 1600px) and (max-width: 1799px) {
+
+}
+
+@media (min-width: 1800px) {
+
+}
