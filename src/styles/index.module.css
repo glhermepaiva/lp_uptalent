@@ -393,8 +393,8 @@
     font-weight: bold;
     font-size: 35px;
     line-height: 40px;
-    width: 400px;
-    margin: 140px 0 50px -5px;
+    width: 398px;
+    margin: 140px auto 50px auto;
     text-align: center;
     color: #291234;
 }
