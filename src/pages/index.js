@@ -65,7 +65,6 @@ export default function LandingPage() {
         <div className={styles.purpleBar} />
         <div className={styles.textoDiferencial}>Uma consultoria de RH focada em recrutamento e seleção de profissionais da área digital. Prezamos pela qualidade da seleção, prazo e assertividade. Com passagens desde 2008, em grandes agências e consultorias sempre focada no digital como por exemplo: Predicta, Isobar e DBG. Com foco em R&S, estruturação do departamento de R.H, entrevistas de desligamentos, mapeamento de áreas, pesquisa de clima e qualidade de vida para os colaboradores.</div>
         <div className={styles.imgIdea} />
-        <div className={styles.botaoDiferencial}>Conheça mais</div>
       </div>
 
 
@@ -81,15 +80,20 @@ export default function LandingPage() {
       <div className={styles.tituloEquipe}>Conheça nossa equipe</div>
       <div className={styles.yellowBar} />
       <div className={styles.containerEquipe}>
-        <div className={styles.containerFabi}>
-          <div className={styles.fotoFabi} />
-          <div className={styles.tituloFabi}>Fabiana Secchis</div>
-          <div className={styles.textoFabi}>Sócia Diretora</div>
+        <div className={styles.containerEquipe01}>
+          <div className={styles.fotoEquipe01} />
+          <div className={styles.tituloEquipe01}>Fabiana Secchis</div>
+          <div className={styles.textoEquipe01}>Diretora Executiva</div>
         </div>
-        <div className={styles.containerCarol}>
-          <div className={styles.fotoCarol} />
-          <div className={styles.tituloCarol}>Caroline Secchis</div>
-          <div className={styles.textoCarol}>Consultora de Talentos</div>
+        <div className={styles.containerEquipe02}>
+          <div className={styles.fotoEquipe02} />
+          <div className={styles.tituloEquipe02}>Nayara Sousa</div>
+          <div className={styles.textoEquipe02}>Consultora de Talentos</div>
+        </div>
+        <div className={styles.containerEquipe03}>
+          <div className={styles.fotoEquipe03} />
+          <div className={styles.tituloEquipe03}>Mariana Andrade</div>
+          <div className={styles.textoEquipe03}>Consultora de Talentos</div>
         </div>
       </div>
       
@@ -123,26 +127,27 @@ export default function LandingPage() {
       <div className={styles.bgContato}>
         <div className={styles.tituloContato}>Contato</div>
         <div className={styles.aquaBar}></div>
-        <div className={styles.textoContato}>Vamos bater um papo? <b>Manda uma mensagem pra gente e diz como podemos te ajudar hoje.</b></div>
-        <div>
-          <div className={styles.nomeContato}>Nome</div>
-          <div className={styles.emailContato}>Email</div>
-          <div className={styles.telefoneContato}>Telefone</div>
-          <div className={styles.mensagemContato}>Mensagem</div>
-          <div className={styles.botaoContato}>Enviar</div>
-        </div>
-        <div className={styles.imgBall3}></div>
-        <div className={styles.infosContato}>
-          <div className={styles.emailtituloContato}>Email</div>
-          <div className={styles.emailendContato}>fabi@uptalentrh.com.br</div>
-          <div className={styles.endtituloContato}>Endereço</div>
-          <div className={styles.enderecoContato}>Avenida Lorem Ipsum, 000
-            00º andar - Vila Lorem Ipsum
-            00000-000 - São Paulo, SP
+        <div className={styles.containerContato}>
+          <div className={styles.textoContato}>Vamos bater um papo? <b>Manda uma mensagem pra gente e diz como podemos te ajudar hoje.</b></div>
+          <div>
+            <div className={styles.nomeContato}>Nome</div>
+            <div className={styles.emailContato}>Email</div>
+            <div className={styles.telefoneContato}>Telefone</div>
+            <div className={styles.mensagemContato}>Mensagem</div>
+            <div className={styles.botaoContato}>Enviar</div>
           </div>
+          <div className={styles.imgBall3}></div>
+          <div className={styles.infosContato}>
+            <div className={styles.emailtituloContato}>Email</div>
+            <div className={styles.emailendContato}>fabi@uptalentrh.com.br</div>
+            <div className={styles.endtituloContato}>Endereço</div>
+            <div className={styles.enderecoContato}>Avenida Lorem Ipsum, 000
+              00º andar - Vila Lorem Ipsum
+              00000-000 - São Paulo, SP
+            </div>
+          </div>
+          <div className={styles.mapaContato} />
         </div>
-        
-        <div className={styles.mapaContato} />
       </div>
 
 
