@@ -195,7 +195,7 @@
     font-size: 34px;
     line-height: 40px;
     color: #fff;
-    margin: 50px 0 10px 55px;
+    margin: 50px 0 10px 50px;
 }
 
 .imgBall {
@@ -230,7 +230,7 @@
     position: absolute;
     z-index: 0;
     overflow: hidden;
-    margin: 230px 0 0 650px;
+    margin: 240px 0 0 650px;
 }
 
 .tituloClientes {
@@ -285,7 +285,7 @@
     font-weight: bold;
     font-size: 36px;
     line-height: 40px;
-    width: 380px;
+    width: 375px;
     margin: 60px auto 15px auto;
 }
 
@@ -391,11 +391,10 @@
 
 .tituloContratacao {
     font-weight: bold;
-    font-size: 35px;
+    font-size: 34px;
     line-height: 40px;
-    width: 398px;
+    width: 387px;
     margin: 140px auto 50px auto;
-    text-align: center;
     color: #291234;
 }
 
@@ -549,29 +548,33 @@
 .nomeContato {
     background-color: #fff;
     border-radius: 5px;
-    margin: 0 0 30px 0;
+    margin: 0 auto 30px auto;
     padding: 3px;
+    width: 90%;
 }
 
 .emailContato {
     background-color: #fff;
     border-radius: 5px;
-    margin: 0 0 30px 0;
+    margin: 0 auto 30px auto;
     padding: 3px;
+    width: 90%;
 }
 
 .telefoneContato {
     background-color: #fff;
     border-radius: 5px;
-    margin: 0 0 30px 0;
+    margin: 0 auto 30px auto;
     padding: 3px;
+    width: 90%;
 }
 
 .mensagemContato {
     background-color: #fff;
     border-radius: 5px;
-    margin: 0 0 30px 0;
+    margin: 0 auto 30px auto;
     padding: 0 0 100px 0;
+    width: 90%;
 }
 
 .botaoContato {
@@ -587,6 +590,7 @@
     align-items: center;
     border-radius: 28px;
     cursor: pointer;
+    margin: 0 0 0 15px;
 }
 
 .imgBall3 {
@@ -603,7 +607,7 @@
 .infosContato {
     display: flex;
     flex-direction: column;
-    margin: 60px 0 40px 5px;
+    margin: 60px 0 40px 10px;
     width: 280px;
 }
 
