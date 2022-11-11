@@ -32,6 +32,7 @@ export default function LandingPage() {
       
 
       <div className={styles.tituloServicos}>Serviços</div>
+      <div className={styles.bgServicos}></div>
       <div className={styles.imgAnalyst} />
       <div className={styles.textoServicos}>Uma consultoria em RH focada em recrutamento e seleção de profissionais da área digital.</div>
       <div className={styles.greenBar1} />
@@ -62,6 +63,7 @@ export default function LandingPage() {
       <div className={styles.bgDiferencial}>
         <div className={styles.tituloDiferencial}>Nosso diferencial</div>
         <div className={styles.imgBall} />
+        <div className={styles.imgBall4} />
         <div className={styles.purpleBar} />
         <div className={styles.textoDiferencial}>Uma consultoria de RH focada em recrutamento e seleção de profissionais da área digital. Prezamos pela qualidade da seleção, prazo e assertividade. Com passagens desde 2008, em grandes agências e consultorias sempre focada no digital como por exemplo: Predicta, Isobar e DBG. Com foco em R&S, estruturação do departamento de R.H, entrevistas de desligamentos, mapeamento de áreas, pesquisa de clima e qualidade de vida para os colaboradores.</div>
         <div className={styles.imgIdea} />

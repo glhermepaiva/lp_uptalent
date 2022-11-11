@@ -422,8 +422,8 @@
     position: absolute;
     z-index: 0;
     overflow: hidden;
-    margin: 390px 0 0 -125px;
-    transform: rotate(240deg);
+    margin: 625px 0 0 -100px;
+    transform: rotate(0deg);
 }
 
 .containerContratacao {
@@ -855,7 +855,7 @@
         font-size: 50px;
         line-height: 40px;
         width: 520px;
-        margin: 90px auto 30px auto;
+        margin: 100px auto 30px auto;
     }
     
     .yellowBar {
@@ -915,9 +915,6 @@
     }
 
     .containerEquipe03 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         margin: 20px 0 30px 190px;
     }
     
@@ -928,7 +925,6 @@
     }
     
     .tituloEquipe03 {
-        font-weight: bold;
         font-size: 22px;
         line-height: 30px;
         margin: 20px 0 0 0;
@@ -943,28 +939,21 @@
         background-image: url(../assets/mobile/bgcontratacao.png);
         width: 1898px;
         height: 1898px;
-        position: absolute;
-        z-index: -1;
-        overflow: hidden;
         left: -750px;
         margin: 40px 0 0 210px;
-        align-self: center;
     }
     
     .tituloContratacao {
-        font-weight: bold;
         font-size: 45px;
         line-height: 40px;
         width: 570px;
         margin: 150px auto 65px auto;
         text-align: center;
-        color: #291234;
     }
     
     .whiteBar {
         width: 60px;
         height: 12px;
-        background-color: #fff;
         margin: -40px auto 160px auto;
     }
     
@@ -972,9 +961,6 @@
         background-image: url(../assets/tablet/gear.png);
         width: 653px;
         height: 400px;
-        position: absolute;
-        z-index: 0;
-        overflow: hidden;
         margin: -400px 0 0 -5px;
     }
     
@@ -982,26 +968,18 @@
         background-image: url(../assets/mobile/ball2.png);
         width: 204px;
         height: 219px;
-        position: absolute;
-        z-index: 0;
-        overflow: hidden;
-        margin: -220px 0 0 660px;
+        margin: -260px 0 0 690px;
         transform: rotate(0deg);
     }
     
     .containerContratacao {
-        display: flex;
         flex-direction: row;
         align-items: baseline;
         justify-content: space-around;
-        color: #fff;
         margin: -20px 0 0 0;
     }
     
     .contratacaoPontual {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         margin: 0 0 30px 0;
     }
     
@@ -1009,10 +987,10 @@
         background-image: url(../assets/mobile/contratacaopontual.png);
         width: 99px;
         height: 106px;
+        margin: 0 0 0 0px;
     }
     
     .tituloPontual {
-        font-weight: bold;
         font-size: 22px;
         line-height: 30px;
         margin: 20px 0 10px 0;
@@ -1021,13 +999,9 @@
     .textoPontual {
         font-size: 18px;
         line-height: 30px;
-        text-align: center;
     }
     
     .contratacaoFee {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         margin: 30px 0 30px 0;
     }
     
@@ -1039,7 +1013,6 @@
     }
     
     .tituloFee {
-        font-weight: bold;
         font-size: 22px;
         line-height: 30px;
         margin: 20px 0 10px 0;
@@ -1048,13 +1021,9 @@
     .textoFee {
         font-size: 18px;
         line-height: 30px;
-        text-align: center;
     }
     
     .contratacaoHub {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         margin: 30px 0 90px 0;
     }
     
@@ -1065,7 +1034,6 @@
     }
     
     .tituloHub {
-        font-weight: bold;
         font-size: 22px;
         line-height: 30px;
         margin: 20px 0 10px 0;
@@ -1074,14 +1042,10 @@
     .textoHub {
         font-size: 18px;
         line-height: 30px;
-        text-align: center;
     }
 
     .bgContato {
-        background-color: #291234;
-        color: #fff;
         height: 1250px;
-        border-radius: 30px;
         width: 90vw;
         margin: -20px auto 0 auto;
         display: flex;
@@ -1090,8 +1054,6 @@
     }
     
     .tituloContato {
-        color: #DF887C;
-        font-weight: bold;
         font-size: 50px;
         line-height: 40px;
         margin: 70px 0 0 0;
@@ -1100,12 +1062,10 @@
     .aquaBar {
         width: 60px;
         height: 12px;
-        background-color: #57B89B;
         margin: 15px auto 70px auto;
     }
     
     .textoContato {
-        color: #fff;
         font-size: 30px;
         line-height: 35px;
         text-align: center;
@@ -1114,7 +1074,6 @@
     }
     
     .nomeContato {
-        background-color: #fff;
         border-radius: 5px;
         margin: 0 auto 30px auto;
         padding: 7px;
@@ -1122,7 +1081,6 @@
     }
     
     .emailContato {
-        background-color: #fff;
         border-radius: 5px;
         margin: 0 auto 30px auto;
         padding: 7px;
@@ -1130,7 +1088,6 @@
     }
     
     .telefoneContato {
-        background-color: #fff;
         border-radius: 5px;
         margin: 0 auto 30px auto;
         padding: 7px;
@@ -1138,7 +1095,6 @@
     }
     
     .mensagemContato {
-        background-color: #fff;
         border-radius: 5px;
         margin: 0 auto 30px auto;
         padding: 0 0 200px 0;
@@ -1146,18 +1102,10 @@
     }
     
     .botaoContato {
-        background-color: #57B89B;
         width: 220px;
         height: 51px;
-        color: #000;
-        font-weight: bold;
         font-size: 25px;
         line-height: 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 28px;
-        cursor: pointer;
         margin: 0 0 0 80px;
     }
     
@@ -1165,16 +1113,11 @@
         background-image: url(../assets/mobile/ball3.png);
         width: 144px;
         height: 200px;
-        position: absolute;
-        z-index: 0;
-        overflow: hidden;
-        margin: 650px 0 0 350px;
-        transform: rotate(280deg);
+        margin: -950px 0 0 -80px;
+        transform: rotate(0deg);
     }
     
     .infosContato {
-        display: flex;
-        flex-direction: column;
         margin: 60px 0 40px 20px;
         width: 280px;
     }
@@ -1187,7 +1130,6 @@
     .emailendContato {
         font-size: 25px;
         line-height: 30px;
-        font-weight: bold;
     }
     
     .endtituloContato {
@@ -1198,7 +1140,6 @@
     .enderecoContato {
         font-size: 25px;
         line-height: 30px;
-        font-weight: bold;
         width: 350px;
     }
     
@@ -1214,12 +1155,9 @@
         width: 123px;
         height: 37px;
         margin: 50px 0 30px 80px;
-        cursor: pointer;
     }
     
     .sociais {
-        display: flex;
-        justify-content: space-around;
         width: 200px;
         margin: -70px 0 0 550px;
     }
@@ -1228,27 +1166,23 @@
         background-image: url(../assets/facebook.png);
         width: 16px;
         height: 35px;
-        cursor: pointer;
     }
     
     .logoInstagram {
         background-image: url(../assets/instagram.png);
         width: 36px;
         height: 36px;
-        cursor: pointer;
     }
     
     .logoLinkedin {
         background-image: url(../assets/linkedin.png);
         width: 31px;
         height: 29px;
-        cursor: pointer;
     }
     
     .copyright{
         font-size: 10px;
         line-height: 40px;
-        text-align: center;
         margin: 40px 0 10px 0;
     }
     
@@ -1259,6 +1193,565 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
+
+    .uptalentLogoG {
+        background-image: url(../assets/tablet/logog.png);
+        width: 248px;
+        height: 74px;
+        margin: 80px 40px 100px 70px;
+    }
+
+    .imgHero{
+        background-image: url(../assets/desk_s/hero.png);
+        width: 2000px;
+        height: 2538px;
+        top: -990px;
+        left: -475px;
+    }
+
+    .menuOpcoes {
+        display: flex;
+        justify-content: space-between;
+        margin: -210px 20px 0 440px;
+        font-size: 20px;
+        font-weight: bold;
+        width: 900px;
+    }
+
+    .menuOpcoes :hover {
+        color: #7b1ea7;
+        cursor: pointer;
+    }
+
+    .tituloMain {
+        font-size: 60px;
+        line-height: 60px;
+        width: 686px;
+        margin: 250px 20px 40px 750px;
+    }
+    
+    .textoMain {
+        font-size: 30px;
+        line-height: 40px;
+        width: 466px;
+        margin: 0 0 0 750px;
+    }
+    
+    .blackBar {
+        width: 50px;
+        height: 12px;
+        margin: 20px 0 0 440px;
+    }
+
+    .imgAnalyst{
+        background-image: url(../assets/tablet/analyst.png);
+        width: 684px;
+        height: 450px;
+        margin: -220px 0 0 1100px;
+    }
+
+    .bgServicos {
+        background-image: url(../assets/desk_s/bgserv.png);
+        width: 2128px;
+        height: 2128px;
+        position: absolute;
+        z-index: -1;
+        overflow: hidden;
+        top: 800px;
+        left: 0;
+    }
+    
+    .tituloServicos {
+        font-size: 60px;
+        line-height: 50px;
+        width: 235px;
+        margin: 450px auto 20px auto;
+        color: #E7CA29;
+    }
+
+    .greenBar1 {
+        width: 60px;
+        height: 12px;
+        background-color: #57B89B;
+        margin: -190px auto 0px auto;
+    }
+    
+    .textoServicos {
+        font-size: 30px;
+        line-height: 40px;
+        width: 420px;
+        margin: 100px auto 0px auto;
+        text-align: center;
+    }
+
+    .containerServicos {
+        justify-content: space-between;
+        align-items: baseline;
+        width: 800px;
+        margin: 250px auto 100px auto;
+    }
+    
+    .topicoServicos1 {
+        margin: 0 10px 0px 0;
+    }
+    
+    .topicoServicos2 {
+        margin: 0 10px 0 10px;
+    }
+    
+    .topicoServicos3 {
+        margin: 0 10px 0 10px;
+    }
+    
+    .topicoServicos4 {
+        margin: 0 10px 0 10px;
+    }
+    
+    .topicoServicos5 {
+        margin: 0 0px 0 10px;
+    }
+    
+    .tituloDiferencial {
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 40px;
+        margin: 80px auto 20px auto;
+    }
+    
+    .imgBall {
+        margin: 100px 0 0 -1100px;
+        transform: rotate(90deg);
+    }
+
+    .imgBall4 {
+        background-image: url(../assets/ball4.png);
+        width: 1303px;
+        height: 1303px;
+        position: absolute;
+        z-index: 0;
+        overflow: hidden;
+        margin: -100px 0 0 1300px;
+        transform: rotate(0deg) scale(0.5);
+    }
+    
+    .purpleBar {
+        width: 60px;
+        height: 12px;
+        margin: 0px auto 50px auto;
+    }
+    
+    .bgDiferencial {
+        width: 80vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .textoDiferencial {
+        font-size: 26px;
+        line-height: 35px;
+        width: 44vw;
+        margin: 0 0 80px 70px;
+        text-align: left;
+    }
+    
+    .imgIdea{
+        background-image: url(../assets/tablet/idea.png);
+        width: 703px;
+        height: 500px;
+        margin: -50px 0 0 -280px;
+    }
+
+    .tituloClientes {
+        font-size: 50px;
+        line-height: 40px;
+        width: 360px;
+        margin: 120px auto 20px auto;
+    }
+    
+    .greenBar {
+        width: 64px;
+        height: 12px;
+        margin: 0 auto 50px auto;
+    }
+
+    .bgClientes {
+        flex-direction: row;
+    }
+    
+    .yoLogo {
+        background-image: url(../assets/tablet/logoyo.png);
+        width: 186px;
+        height: 135px;
+        margin: 50px 0 50px 0;
+    }
+    
+    .tripLogo {
+        background-image: url(../assets/tablet/logotrip.png);
+        width: 387px;
+        height: 47px;
+        margin: 50px 0 50px 0;
+    }
+    
+    .pointLogo {
+        background-image: url(../assets/tablet/logopoint.png);
+        width: 238px;
+        height: 89px;
+        margin: 50px 0 50px 0;
+    }
+
+    .tituloEquipe {
+        font-size: 50px;
+        line-height: 40px;
+        width: 520px;
+        margin: 120px auto 30px auto;
+    }
+    
+    .yellowBar {
+        width: 68px;
+        height: 12px;
+        margin: -5px auto 60px auto;
+    }
+    
+    .containerEquipe {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1100px;
+        margin: 0 auto;
+    }
+    
+    .containerEquipe01 {
+        margin: 0 0 30px 0;
+    }
+    
+    .fotoEquipe01 {
+        background-image: url(../assets/mobile/equipe01.png);
+        width: 300px;
+        height: 300px;
+    }
+    
+    .tituloEquipe01 {
+        font-size: 22px;
+        line-height: 30px;
+        margin: 20px 0 0 0;
+    }
+    
+    .textoEquipe01 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .containerEquipe02 {
+        margin: 0 0 30px 0;
+    }
+    
+    .fotoEquipe02 {
+        background-image: url(../assets/mobile/equipe02.png);
+        width: 300px;
+        height: 300px;
+    }
+    
+    .tituloEquipe02 {
+        font-size: 22px;
+        line-height: 30px;
+        margin: 20px 0 0 0;
+    }
+    
+    .textoEquipe02 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .containerEquipe03 {
+        margin: 0px 0 30px 0px;
+    }
+    
+    .fotoEquipe03 {
+        background-image: url(../assets/mobile/equipe03.png);
+        width: 300px;
+        height: 300px;
+    }
+    
+    .tituloEquipe03 {
+        font-size: 22px;
+        line-height: 30px;
+        margin: 20px 0 0 0;
+    }
+    
+    .textoEquipe03 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .bgContratacao {
+        background-image: url(../assets/desk_s/bgcontratacao.png);
+        width: 1800px;
+        height: 1800px;
+        left: -16vw;
+        margin: 100px 0 0 0;
+    }
+    
+    .tituloContratacao {
+        font-size: 45px;
+        line-height: 40px;
+        width: 570px;
+        margin: 250px auto 65px auto;
+        text-align: center;
+    }
+    
+    .whiteBar {
+        width: 60px;
+        height: 12px;
+        margin: -40px auto 160px auto;
+    }
+    
+    .imgGear {
+        background-image: url(../assets/tablet/gear.png);
+        width: 653px;
+        height: 400px;
+        margin: -450px 0 0 100px;
+    }
+    
+    .imgBall2 {
+        background-image: url(../assets/mobile/ball2.png);
+        width: 204px;
+        height: 219px;
+        margin: -270px 0 0 1120px;
+        transform: rotate(0deg);
+    }
+    
+    .containerContratacao {
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-around;
+        margin: -70px auto 0 auto;
+        width: 1000px;
+    }
+    
+    .contratacaoPontual {
+        margin: 0 0 30px 0;
+    }
+    
+    .fotoPontual {
+        background-image: url(../assets/mobile/contratacaopontual.png);
+        width: 99px;
+        height: 106px;
+        margin: 0 0 0 0px;
+    }
+    
+    .tituloPontual {
+        font-size: 22px;
+        line-height: 30px;
+        margin: 20px 0 10px 0;
+    }
+    
+    .textoPontual {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .contratacaoFee {
+        margin: 30px 0 30px 0;
+    }
+    
+    .fotoFee {
+        background-image: url(../assets/mobile/contratacaofee.png);
+        width: 108px;
+        height: 108px;
+        margin: 0 0 0 20px;
+    }
+    
+    .tituloFee {
+        font-size: 22px;
+        line-height: 30px;
+        margin: 20px 0 10px 0;
+    }
+    
+    .textoFee {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .contratacaoHub {
+        margin: 30px 0 90px 0;
+    }
+    
+    .fotoHub {
+        background-image: url(../assets/mobile/contratacaohub.png);
+        width: 150px;
+        height: 86px;
+    }
+    
+    .tituloHub {
+        font-size: 22px;
+        line-height: 30px;
+        margin: 20px 0 10px 0;
+    }
+    
+    .textoHub {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .bgContato {
+        width: 85vw;
+        height: 1100px;
+        margin: -20px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .tituloContato {
+        font-size: 50px;
+        line-height: 40px;
+        text-align: center;
+        width: 200px;
+        margin: 120px auto 0 auto;
+    }
+    
+    .aquaBar {
+        width: 60px;
+        height: 12px;
+        margin: 15px auto 70px auto;
+    }
+    
+    .textoContato {
+        font-size: 30px;
+        line-height: 35px;
+        text-align: left;
+        width: 500px;
+        margin: 0px 0 80px 50px;
+    }
+    
+    .nomeContato {
+        border-radius: 5px;
+        margin: 0 0 30px 50px;
+        padding: 7px;
+        width: 550px;
+    }
+    
+    .emailContato {
+        border-radius: 5px;
+        margin: 0 0 30px 50px;
+        padding: 7px;
+        width: 550px;
+    }
+    
+    .telefoneContato {
+        border-radius: 5px;
+        margin: 0 0 30px 50px;
+        padding: 7px;
+        width: 550px;
+    }
+    
+    .mensagemContato {
+        border-radius: 5px;
+        margin: 0 0 30px 50px;
+        padding: 0 0 200px 0;
+        width: 550px;
+    }
+    
+    .botaoContato {
+        width: 220px;
+        height: 51px;
+        font-size: 25px;
+        line-height: 0px;
+        margin: 0 0 30px 50px;
+    }
+    
+    .imgBall3 {
+        background-image: url(../assets/mobile/ball3.png);
+        width: 144px;
+        height: 200px;
+        margin: -650px 0 0 1080px;
+        transform: rotate(0deg);
+    }
+    
+    .infosContato {
+        margin: -530px 0 40px 700px;
+        width: 280px;
+    }
+    
+    .emailtituloContato {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .emailendContato {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    .endtituloContato {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .enderecoContato {
+        font-size: 25px;
+        line-height: 30px;
+        width: 350px;
+    }
+    
+    .mapaContato {
+        background-image: url(../assets/desk_s/mapa.png);
+        width: 525px;
+        height: 372px;
+        margin: 0 0 0 700px;
+    }
+    
+    .uptalentLogoP {
+        background-image: url(../assets/mobile/logop.png);
+        width: 123px;
+        height: 37px;
+        margin: 50px 0 30px 130px;
+    }
+    
+    .sociais {
+        width: 230px;
+        margin: -30px 0 0 1030px;
+    }
+    
+    .logoFacebook {
+        background-image: url(../assets/facebook.png);
+        width: 16px;
+        height: 35px;
+    }
+    
+    .logoInstagram {
+        background-image: url(../assets/instagram.png);
+        width: 36px;
+        height: 36px;
+    }
+    
+    .logoLinkedin {
+        background-image: url(../assets/linkedin.png);
+        width: 31px;
+        height: 29px;
+    }
+    
+    .copyright{
+        font-size: 10px;
+        line-height: 40px;
+        margin: 40px 0 10px 0;
+    }
+    
+    .menuOpcoes2 {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 0 130px;
+        font-size: 18px;
+        width: 800px;
+    }
+
+    .menuOpcoes2 :hover {
+        font-weight: bold;
+        cursor: pointer;
+    }
+
 }
 
 @media (min-width: 1400px) and (max-width: 1599px) {
