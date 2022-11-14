@@ -29,7 +29,7 @@ export default function LandingPage() {
       <div className={styles.tituloMain}>Talentos que voam, para sua empresa decolar.</div>
       <div className={styles.textoMain}>Recrutamos o que há de melhor no mercado digital para seu negócio voar alto.</div>
       <div className={styles.blackBar} />
-      
+      <div className={styles.redBall} />
 
       <div className={styles.tituloServicos}>Serviços</div>
       <div className={styles.bgServicos}></div>
@@ -81,6 +81,7 @@ export default function LandingPage() {
 
       <div className={styles.tituloEquipe}>Conheça nossa equipe</div>
       <div className={styles.yellowBar} />
+      <div className={styles.yellowBall} />
       <div className={styles.containerEquipe}>
         <div className={styles.containerEquipe01}>
           <div className={styles.fotoEquipe01} />
@@ -110,7 +111,7 @@ export default function LandingPage() {
           <div className={styles.contratacaoPontual}>
             <div className={styles.fotoPontual} />
             <div className={styles.tituloPontual}>Job Pontual</div>
-            <div className={styles.textoPontual}>Contrato pot vaga</div>
+            <div className={styles.textoPontual}>Contrato por vaga</div>
           </div>
           <div className={styles.contratacaoFee}>
             <div className={styles.fotoFee} />

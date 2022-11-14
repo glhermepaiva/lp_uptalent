@@ -2052,11 +2052,11 @@
         width: 1800px;
         height: 1800px;
         left: -16vw;
-        margin: 100px 0 0 0;
+        margin: 100px 0 0 90px;
     }
     
     .tituloContratacao {
-        font-size: 45px;
+        font-size: 50px;
         line-height: 40px;
         width: 570px;
         margin: 250px auto 65px auto;
@@ -2318,8 +2318,1328 @@
 
 @media (min-width: 1600px) and (max-width: 1799px) {
 
+    .uptalentLogoG {
+        background-image: url(../assets/tablet/logog.png);
+        width: 248px;
+        height: 74px;
+        margin: 80px 40px 100px 80px;
+    }
+
+    .imgHero{
+        background-image: url(../assets/hero.png);
+        width: 2853px;
+        height: 3621px;
+        top: -1500px;
+        left: -750px;
+    }
+
+    .menuOpcoes {
+        display: flex;
+        justify-content: space-between;
+        margin: -210px 20px 0 650px;
+        font-size: 20px;
+        font-weight: bold;
+        width: 1000px;
+    }
+
+    .menuOpcoes :hover {
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .tituloMain {
+        font-size: 60px;
+        line-height: 60px;
+        width: 686px;
+        margin: 300px 20px 40px 850px;
+    }
+    
+    .textoMain {
+        font-size: 30px;
+        line-height: 40px;
+        width: 470px;
+        margin: 0 0 0 850px;
+    }
+
+    .redBall {
+        background-image: url(../assets/redball.png);
+        width: 528px;
+        height: 528px;
+        position: absolute;
+        z-index: -1;
+        overflow: hidden;
+        margin: -530px 0 0 1480px;
+    }
+    
+    .blackBar {
+        width: 139px;
+        height: 34px;
+        margin: 50px 0 0 1250px;
+    }
+
+    .imgAnalyst{
+        background-image: url(../assets/analyst.png);
+        width: 912px;
+        height: 600px;
+        margin: -360px 0 0 1350px;
+    }
+
+    .bgServicos {
+        background-image: url(../assets/desk_s/bgserv.png);
+        width: 2128px;
+        height: 2128px;
+        position: absolute;
+        z-index: -1;
+        overflow: hidden;
+        top: 1050px;
+        left: -100px;
+    }
+    
+    .tituloServicos {
+        font-size: 60px;
+        line-height: 50px;
+        width: 235px;
+        margin: 450px auto 20px auto;
+        color: #E7CA29;
+    }
+
+    .greenBar1 {
+        width: 117px;
+        height: 20px;
+        background-color: #57B89B;
+        margin: -155px auto 0px auto;
+    }
+    
+    .textoServicos {
+        font-size: 30px;
+        line-height: 40px;
+        width: 650px;
+        margin: 100px auto 0px auto;
+        text-align: left;
+    }
+
+    .containerServicos {
+        justify-content: space-between;
+        align-items: baseline;
+        width: 1300px;
+        margin: 250px auto 100px auto;
+    }
+    
+    .topicoServicos1 {
+        margin: 0 10px 0px 0;
+    }
+
+    .svc1 {
+        background-image: url(../assets/svc1.png);
+        width: 119px;
+        height: 119px;
+    }
+
+    .svcTexto1 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: left;
+        margin: 30px 0 0 0;
+    }
+    
+    .topicoServicos2 {
+        margin: 0 10px 0 10px;
+    }
+
+    .svc2 {
+        background-image: url(../assets/svc2.png);
+        width: 113px;
+        height: 113px;
+    }
+
+    .svcTexto2 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: left;
+        margin: 30px 0 0 0;
+    }
+    
+    .topicoServicos3 {
+        margin: 0 10px 0 10px;
+    }
+
+    .svc3 {
+        background-image: url(../assets/svc3.png);
+        width: 134px;
+        height: 96px;
+    }
+
+    .svcTexto3 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: left;
+        width: 300px;
+        margin: 30px 0 0 60px;
+    }
+    
+    .topicoServicos4 {
+        margin: 0 10px 0 10px;
+    }
+
+    .svc4 {
+        background-image: url(../assets/svc4.png);
+        width: 97px;
+        height: 98px;
+    }
+
+    .svcTexto4 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: left;
+        width: 260px;
+        margin: 30px 0 0 90px;
+    }
+    
+    .topicoServicos5 {
+        margin: 0 0px 0 10px;
+    }
+
+    .svc5 {
+        background-image: url(../assets/svc5.png);
+        width: 116px;
+        height: 116px;
+    }
+
+    .svcTexto5 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: left;
+        margin: 30px 0 0 0;
+    }
+    
+    .tituloDiferencial {
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 50px;
+        margin: 200px auto 30px auto;
+    }
+    
+    .imgBall {
+        background-image: url(../assets/ball.png);
+        width: 604px;
+        height: 604px;
+        margin: 200px 0 0 -1600px;
+        transform: rotate(0deg);
+    }
+
+    .imgBall4 {
+        background-image: url(../assets/ball4.png);
+        width: 1303px;
+        height: 1303px;
+        position: absolute;
+        z-index: 0;
+        overflow: hidden;
+        margin: -300px 0 0 1500px;
+        transform: rotate(0deg) scale(0.5);
+    }
+    
+    .purpleBar {
+        width: 117px;
+        height: 20px;
+        margin: 0px auto 100px auto;
+    }
+    
+    .bgDiferencial {
+        width: 85vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .textoDiferencial {
+        font-size: 30px;
+        line-height: 40px;
+        width: 44vw;
+        margin: 0 0 150px 70px;
+        text-align: left;
+    }
+    
+    .imgIdea{
+        background-image: url(../assets/idea.png);
+        width: 1124px;
+        height: 800px;
+        margin: -200px 0 0 -280px;
+    }
+
+    .tituloClientes {
+        font-size: 60px;
+        line-height: 50px;
+        width: 440px;
+        margin: 120px auto 30px auto;
+    }
+    
+    .greenBar {
+        width: 117px;
+        height: 20px;
+        margin: 0 auto 100px auto;
+    }
+
+    .bgClientes {
+        flex-direction: row;
+        width: 85vw;
+        height: 320px;
+        border: 5px #EABD11 solid;
+        border-radius: 69px;
+    }
+    
+    .yoLogo {
+        background-image: url(../assets/tablet/logoyo.png);
+        width: 186px;
+        height: 135px;
+        margin: 50px 0 50px 0;
+    }
+    
+    .tripLogo {
+        background-image: url(../assets/tablet/logotrip.png);
+        width: 387px;
+        height: 47px;
+        margin: 50px 0 50px 0;
+    }
+    
+    .pointLogo {
+        background-image: url(../assets/tablet/logopoint.png);
+        width: 238px;
+        height: 89px;
+        margin: 50px 0 50px 0;
+    }
+
+    .tituloEquipe {
+        font-size: 60px;
+        line-height: 50px;
+        width: 630px;
+        margin: 120px auto 40px auto;
+    }
+    
+    .yellowBar {
+        width: 117px;
+        height: 20px;
+        margin: -5px auto 100px auto;
+    }
+
+    .yellowBall {
+        background-image: url(../assets/yellowball.png);
+        width: 528px;
+        height: 528px;
+        position: absolute;
+        z-index: 0;
+        overflow: hidden;
+        margin: -350px 0 50px -380px;
+    }
+    
+    .containerEquipe {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1200px;
+        margin: 0 auto 20px auto;
+    }
+    
+    .containerEquipe01 {
+        margin: 0 0 30px 0;
+    }
+    
+    .fotoEquipe01 {
+        background-image: url(../assets/mobile/equipe01.png);
+        width: 300px;
+        height: 300px;
+    }
+    
+    .tituloEquipe01 {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 20px 0 0 0;
+    }
+    
+    .textoEquipe01 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    
+    .containerEquipe02 {
+        margin: 0 0 30px 0;
+    }
+    
+    .fotoEquipe02 {
+        background-image: url(../assets/mobile/equipe02.png);
+        width: 300px;
+        height: 300px;
+    }
+    
+    .tituloEquipe02 {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 20px 0 0 0;
+    }
+    
+    .textoEquipe02 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .containerEquipe03 {
+        margin: 0px 0 30px 0px;
+    }
+    
+    .fotoEquipe03 {
+        background-image: url(../assets/mobile/equipe03.png);
+        width: 300px;
+        height: 300px;
+    }
+    
+    .tituloEquipe03 {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 20px 0 0 0;
+    }
+    
+    .textoEquipe03 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .bgContratacao {
+        background-image: url(../assets/bgcontratacao.png);
+        width: 2300px;
+        height: 2300px;
+        margin: 100px 0 0 450px;
+    }
+    
+    .tituloContratacao {
+        font-size: 60px;
+        line-height: 50px;
+        width: 690px;
+        margin: 280px auto 70px auto;
+        text-align: center;
+    }
+    
+    .whiteBar {
+        width: 117px;
+        height: 20px;
+        margin: -40px auto 160px auto;
+    }
+    
+    .imgGear {
+        background-image: url(../assets/gear.png);
+        width: 866px;
+        height: 530px;
+        margin: -560px 0 0 100px;
+    }
+    
+    .imgBall2 {
+        background-image: url(../assets/ball2.png);
+        width: 407px;
+        height: 437px;
+        margin: -350px 0 0 1400px;
+        transform: rotate(0deg);
+    }
+    
+    .containerContratacao {
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-around;
+        margin: 0px auto 0 auto;
+        width: 1400px;
+    }
+    
+    .contratacaoPontual {
+        margin: 0 0 30px 0;
+    }
+    
+    .fotoPontual {
+        background-image: url(../assets/contratacaopontual.png);
+        width: 197px;
+        height: 212px;
+        margin: 0 0 0 0px;
+    }
+    
+    .tituloPontual {
+        font-size: 40px;
+        line-height: 40px;
+        margin: 50px 0 30px 0;
+        width: 230px;
+    }
+    
+    .textoPontual {
+        font-size: 30px;
+        line-height: 40px;
+        width: 250px;
+    }
+    
+    .contratacaoFee {
+        margin: 30px 0 30px 0;
+    }
+    
+    .fotoFee {
+        background-image: url(../assets/contratacaofee.png);
+        width: 216px;
+        height: 216px;
+        margin: 0 0 0 20px;
+    }
+    
+    .tituloFee {
+        font-size: 40px;
+        line-height: 40px;
+        margin: 50px 0 30px 0;
+    }
+    
+    .textoFee {
+        font-size: 30px;
+        line-height: 40px;
+        width: 290px;
+    }
+    
+    .contratacaoHub {
+        margin: 30px 0 90px 0;
+    }
+    
+    .fotoHub {
+        background-image: url(../assets/contratacaohub.png);
+        width: 300px;
+        height: 171px;
+    }
+    
+    .tituloHub {
+        font-size: 40px;
+        line-height: 40px;
+        margin: 50px 0 30px 0;
+    }
+    
+    .textoHub {
+        font-size: 30px;
+        line-height: 40px;
+        width: 290px;
+    }
+
+    .bgContato {
+        width: 85vw;
+        height: 1370px;
+        margin: -20px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 64px;
+    }
+    
+    .tituloContato {
+        font-size: 60px;
+        line-height: 50px;
+        text-align: center;
+        margin: 120px auto 0 auto;
+    }
+    
+    .aquaBar {
+        width: 117px;
+        height: 20px;
+        margin: 30px auto 70px auto;
+    }
+    
+    .textoContato {
+        font-size: 30px;
+        line-height: 50px;
+        text-align: left;
+        width: 650px;
+        margin: 0px 0 80px 50px;
+    }
+    
+    .nomeContato {
+        border-radius: 5px;
+        margin: 0 0 30px 50px;
+        padding: 7px;
+        width: 650px;
+    }
+    
+    .emailContato {
+        border-radius: 5px;
+        margin: 0 0 30px 50px;
+        padding: 7px;
+        width: 650px;
+    }
+    
+    .telefoneContato {
+        border-radius: 5px;
+        margin: 0 0 30px 50px;
+        padding: 7px;
+        width: 650px;
+    }
+    
+    .mensagemContato {
+        border-radius: 5px;
+        margin: 0 0 30px 50px;
+        padding: 0 0 200px 0;
+        width: 650px;
+    }
+    
+    .botaoContato {
+        width: 220px;
+        height: 51px;
+        font-size: 25px;
+        line-height: 0px;
+        margin: 0 0 30px 50px;
+    }
+    
+    .imgBall3 {
+        background-image: url(../assets/ball3.png);
+        width: 209px;
+        height: 291px;
+        margin: -520px 0 0 1330px;
+        transform: rotate(0deg);
+    }
+    
+    .infosContato {
+        margin: -540px 0 40px 800px;
+        width: 280px;
+    }
+    
+    .emailtituloContato {
+        font-size: 20px;
+        line-height: 50px;
+    }
+    
+    .emailendContato {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    
+    .endtituloContato {
+        font-size: 20px;
+        line-height: 50px;
+        margin: 20px 0 0 0;
+    }
+    
+    .enderecoContato {
+        font-size: 30px;
+        line-height: 50px;
+        width: 420px;
+    }
+    
+    .mapaContato {
+        background-image: url(../assets/mapa.png);
+        width: 698px;
+        height: 495px;
+        margin: 0 0 0 800px;
+    }
+
+    .footer {
+        margin: 150px 0 0 0;
+    }
+    
+    .uptalentLogoP {
+        background-image: url(../assets/logop.png);
+        width: 123px;
+        height: 37px;
+        margin: 0px 0 30px 180px;
+    }
+    
+    .sociais {
+        width: 230px;
+        margin: -30px 0 0 1400px;
+    }
+    
+    .logoFacebook {
+        background-image: url(../assets/facebook.png);
+        width: 16px;
+        height: 35px;
+    }
+    
+    .logoInstagram {
+        background-image: url(../assets/instagram.png);
+        width: 36px;
+        height: 36px;
+    }
+    
+    .logoLinkedin {
+        background-image: url(../assets/linkedin.png);
+        width: 31px;
+        height: 29px;
+    }
+    
+    .copyright{
+        font-size: 10px;
+        line-height: 40px;
+        margin: 40px 0 10px 0;
+    }
+    
+    .menuOpcoes2 {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 0 180px;
+        font-size: 18px;
+        width: 800px;
+    }
+
+    .menuOpcoes2 :hover {
+        font-weight: bold;
+        cursor: pointer;
+    }
+
 }
 
 @media (min-width: 1800px) {
+
+    .uptalentLogoG {
+        background-image: url(../assets/tablet/logog.png);
+        width: 248px;
+        height: 74px;
+        margin: 100px 40px 100px 120px;
+    }
+
+    .imgHero{
+        background-image: url(../assets/hero.png);
+        width: 2853px;
+        height: 3621px;
+        top: -1500px;
+        left: -650px;
+    }
+
+    .menuOpcoes {
+        display: flex;
+        justify-content: space-between;
+        margin: -230px 20px 0 800px;
+        font-size: 20px;
+        font-weight: bold;
+        width: 1000px;
+    }
+
+    .menuOpcoes :hover {
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .tituloMain {
+        font-size: 60px;
+        line-height: 60px;
+        width: 686px;
+        margin: 300px 20px 40px 970px;
+    }
+    
+    .textoMain {
+        font-size: 30px;
+        line-height: 40px;
+        width: 470px;
+        margin: 0 0 0 970px;
+    }
+
+    .redBall {
+        background-image: url(../assets/redball.png);
+        width: 528px;
+        height: 528px;
+        position: absolute;
+        z-index: -1;
+        overflow: hidden;
+        margin: -530px 0 0 1650px;
+    }
+    
+    .blackBar {
+        width: 139px;
+        height: 34px;
+        margin: 50px 0 0 1380px;
+    }
+
+    .imgAnalyst{
+        background-image: url(../assets/analyst.png);
+        width: 912px;
+        height: 600px;
+        margin: -360px 0 0 1550px;
+    }
+
+    .bgServicos {
+        background-image: url(../assets/desk_s/bgserv.png);
+        width: 2128px;
+        height: 2128px;
+        position: absolute;
+        z-index: -1;
+        overflow: hidden;
+        top: 1090px;
+        left: -100px;
+    }
+    
+    .tituloServicos {
+        font-size: 60px;
+        line-height: 50px;
+        width: 235px;
+        margin: 450px auto 20px auto;
+        color: #E7CA29;
+    }
+
+    .greenBar1 {
+        width: 117px;
+        height: 20px;
+        background-color: #57B89B;
+        margin: -155px auto 0px auto;
+    }
+    
+    .textoServicos {
+        font-size: 30px;
+        line-height: 40px;
+        width: 650px;
+        margin: 100px auto 0px auto;
+        text-align: left;
+    }
+
+    .containerServicos {
+        justify-content: space-between;
+        align-items: baseline;
+        width: 1450px;
+        margin: 250px auto 300px auto;
+    }
+    
+    .topicoServicos1 {
+        margin: 0 10px 0px 0;
+    }
+
+    .svc1 {
+        background-image: url(../assets/svc1.png);
+        width: 119px;
+        height: 119px;
+    }
+
+    .svcTexto1 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: left;
+        margin: 30px 0 0 0;
+    }
+    
+    .topicoServicos2 {
+        margin: 0 10px 0 10px;
+    }
+
+    .svc2 {
+        background-image: url(../assets/svc2.png);
+        width: 113px;
+        height: 113px;
+    }
+
+    .svcTexto2 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: left;
+        margin: 30px 0 0 0;
+    }
+    
+    .topicoServicos3 {
+        margin: 0 10px 0 10px;
+    }
+
+    .svc3 {
+        background-image: url(../assets/svc3.png);
+        width: 134px;
+        height: 96px;
+    }
+
+    .svcTexto3 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: left;
+        width: 300px;
+        margin: 30px 0 0 60px;
+    }
+    
+    .topicoServicos4 {
+        margin: 0 10px 0 10px;
+    }
+
+    .svc4 {
+        background-image: url(../assets/svc4.png);
+        width: 97px;
+        height: 98px;
+    }
+
+    .svcTexto4 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: left;
+        width: 260px;
+        margin: 30px 0 0 90px;
+    }
+    
+    .topicoServicos5 {
+        margin: 0 0px 0 10px;
+    }
+
+    .svc5 {
+        background-image: url(../assets/svc5.png);
+        width: 116px;
+        height: 116px;
+    }
+
+    .svcTexto5 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: left;
+        margin: 30px 0 0 0;
+    }
+    
+    .tituloDiferencial {
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 50px;
+        margin: 200px auto 30px auto;
+    }
+    
+    .imgBall {
+        background-image: url(../assets/ball.png);
+        width: 604px;
+        height: 604px;
+        margin: 200px 0 0 -1700px;
+        transform: rotate(0deg);
+    }
+
+    .imgBall4 {
+        background-image: url(../assets/ball4.png);
+        width: 950px;
+        height: 950px;
+        position: absolute;
+        z-index: 0;
+        overflow: hidden;
+        margin: -450px 0 0 2000px;
+        transform: rotate(0deg);
+    }
+    
+    .purpleBar {
+        width: 117px;
+        height: 20px;
+        margin: 0px auto 100px auto;
+    }
+    
+    .bgDiferencial {
+        width: 85vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .textoDiferencial {
+        font-size: 30px;
+        line-height: 40px;
+        width: 44vw;
+        margin: 0 0 200px 70px;
+        text-align: left;
+    }
+    
+    .imgIdea{
+        background-image: url(../assets/idea.png);
+        width: 1124px;
+        height: 800px;
+        margin: -480px 0 0 -280px;
+    }
+
+    .tituloClientes {
+        font-size: 60px;
+        line-height: 50px;
+        width: 440px;
+        margin: 150px auto 30px auto;
+    }
+    
+    .greenBar {
+        width: 117px;
+        height: 20px;
+        margin: 0 auto 100px auto;
+    }
+
+    .bgClientes {
+        flex-direction: row;
+        width: 85vw;
+        height: 320px;
+        border: 5px #EABD11 solid;
+        border-radius: 69px;
+    }
+    
+    .yoLogo {
+        background-image: url(../assets/tablet/logoyo.png);
+        width: 186px;
+        height: 135px;
+        margin: 50px 0 50px 0;
+    }
+    
+    .tripLogo {
+        background-image: url(../assets/tablet/logotrip.png);
+        width: 387px;
+        height: 47px;
+        margin: 50px 0 50px 0;
+    }
+    
+    .pointLogo {
+        background-image: url(../assets/tablet/logopoint.png);
+        width: 238px;
+        height: 89px;
+        margin: 50px 0 50px 0;
+    }
+
+    .tituloEquipe {
+        font-size: 60px;
+        line-height: 50px;
+        width: 630px;
+        margin: 150px auto 40px auto;
+    }
+    
+    .yellowBar {
+        width: 117px;
+        height: 20px;
+        margin: -5px auto 100px auto;
+    }
+
+    .yellowBall {
+        background-image: url(../assets/yellowball.png);
+        width: 528px;
+        height: 528px;
+        position: absolute;
+        z-index: 0;
+        overflow: hidden;
+        margin: -300px 0 50px -330px;
+    }
+    
+    .containerEquipe {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1200px;
+        margin: 0 auto 20px auto;
+    }
+    
+    .containerEquipe01 {
+        margin: 0 0 30px 0;
+    }
+    
+    .fotoEquipe01 {
+        background-image: url(../assets/mobile/equipe01.png);
+        width: 300px;
+        height: 300px;
+    }
+    
+    .tituloEquipe01 {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 20px 0 0 0;
+    }
+    
+    .textoEquipe01 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    
+    .containerEquipe02 {
+        margin: 0 0 30px 0;
+    }
+    
+    .fotoEquipe02 {
+        background-image: url(../assets/mobile/equipe02.png);
+        width: 300px;
+        height: 300px;
+    }
+    
+    .tituloEquipe02 {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 20px 0 0 0;
+    }
+    
+    .textoEquipe02 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .containerEquipe03 {
+        margin: 0px 0 30px 0px;
+    }
+    
+    .fotoEquipe03 {
+        background-image: url(../assets/mobile/equipe03.png);
+        width: 300px;
+        height: 300px;
+    }
+    
+    .tituloEquipe03 {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 20px 0 0 0;
+    }
+    
+    .textoEquipe03 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .bgContratacao {
+        background-image: url(../assets/bgcontratacao.png);
+        width: 2300px;
+        height: 2300px;
+        margin: 100px 0 0 550px;
+    }
+    
+    .tituloContratacao {
+        font-size: 60px;
+        line-height: 50px;
+        width: 690px;
+        margin: 300px auto 70px auto;
+        text-align: center;
+    }
+    
+    .whiteBar {
+        width: 117px;
+        height: 20px;
+        margin: -40px auto 160px auto;
+    }
+    
+    .imgGear {
+        background-image: url(../assets/gear.png);
+        width: 866px;
+        height: 530px;
+        margin: -560px 0 0 200px;
+    }
+    
+    .imgBall2 {
+        background-image: url(../assets/ball2.png);
+        width: 407px;
+        height: 437px;
+        margin: -350px 0 0 1530px;
+        transform: rotate(0deg);
+    }
+    
+    .containerContratacao {
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-around;
+        margin: 0px auto 0 auto;
+        width: 1600px;
+    }
+    
+    .contratacaoPontual {
+        margin: 0 0 30px 0;
+    }
+    
+    .fotoPontual {
+        background-image: url(../assets/contratacaopontual.png);
+        width: 197px;
+        height: 212px;
+        margin: 0 0 0 0px;
+    }
+    
+    .tituloPontual {
+        font-size: 40px;
+        line-height: 40px;
+        margin: 50px 0 30px 0;
+        width: 230px;
+    }
+    
+    .textoPontual {
+        font-size: 30px;
+        line-height: 40px;
+        width: 250px;
+    }
+    
+    .contratacaoFee {
+        margin: 30px 0 30px 0;
+    }
+    
+    .fotoFee {
+        background-image: url(../assets/contratacaofee.png);
+        width: 216px;
+        height: 216px;
+        margin: 0 0 0 20px;
+    }
+    
+    .tituloFee {
+        font-size: 40px;
+        line-height: 40px;
+        margin: 50px 0 30px 0;
+    }
+    
+    .textoFee {
+        font-size: 30px;
+        line-height: 40px;
+        width: 290px;
+    }
+    
+    .contratacaoHub {
+        margin: 30px 0 90px 0;
+    }
+    
+    .fotoHub {
+        background-image: url(../assets/contratacaohub.png);
+        width: 300px;
+        height: 171px;
+    }
+    
+    .tituloHub {
+        font-size: 40px;
+        line-height: 40px;
+        margin: 50px 0 30px 0;
+    }
+    
+    .textoHub {
+        font-size: 30px;
+        line-height: 40px;
+        width: 290px;
+    }
+
+    .bgContato {
+        width: 85vw;
+        height: 1370px;
+        margin: -20px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 64px;
+    }
+    
+    .tituloContato {
+        font-size: 60px;
+        line-height: 50px;
+        text-align: center;
+        margin: 120px auto 0 auto;
+    }
+    
+    .aquaBar {
+        width: 117px;
+        height: 20px;
+        margin: 30px auto 70px auto;
+    }
+    
+    .textoContato {
+        font-size: 30px;
+        line-height: 50px;
+        text-align: left;
+        width: 650px;
+        margin: 0px 0 80px 50px;
+    }
+    
+    .nomeContato {
+        border-radius: 5px;
+        margin: 0 0 30px 50px;
+        padding: 7px;
+        width: 734px;
+    }
+    
+    .emailContato {
+        border-radius: 5px;
+        margin: 0 0 30px 50px;
+        padding: 7px;
+        width: 734px;
+    }
+    
+    .telefoneContato {
+        border-radius: 5px;
+        margin: 0 0 30px 50px;
+        padding: 7px;
+        width: 734px;
+    }
+    
+    .mensagemContato {
+        border-radius: 5px;
+        margin: 0 0 30px 50px;
+        padding: 0 0 200px 0;
+        width: 734px;
+    }
+    
+    .botaoContato {
+        width: 220px;
+        height: 51px;
+        font-size: 25px;
+        line-height: 0px;
+        margin: 0 0 30px 50px;
+    }
+    
+    .imgBall3 {
+        background-image: url(../assets/ball3.png);
+        width: 209px;
+        height: 291px;
+        margin: -520px 0 0 1500px;
+        transform: rotate(0deg);
+    }
+    
+    .infosContato {
+        margin: -540px 0 40px 900px;
+        width: 280px;
+    }
+    
+    .emailtituloContato {
+        font-size: 20px;
+        line-height: 50px;
+    }
+    
+    .emailendContato {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    
+    .endtituloContato {
+        font-size: 20px;
+        line-height: 50px;
+        margin: 20px 0 0 0;
+    }
+    
+    .enderecoContato {
+        font-size: 30px;
+        line-height: 50px;
+        width: 420px;
+    }
+    
+    .mapaContato {
+        background-image: url(../assets/mapa.png);
+        width: 698px;
+        height: 495px;
+        margin: 0 0 0 900px;
+    }
+
+    .footer {
+        margin: 150px 0 0 0;
+    }
+    
+    .uptalentLogoP {
+        background-image: url(../assets/logop.png);
+        width: 123px;
+        height: 37px;
+        margin: 0px 0 30px 200px;
+    }
+    
+    .sociais {
+        width: 230px;
+        margin: -30px 0 0 1500px;
+    }
+    
+    .logoFacebook {
+        background-image: url(../assets/facebook.png);
+        width: 16px;
+        height: 35px;
+    }
+    
+    .logoInstagram {
+        background-image: url(../assets/instagram.png);
+        width: 36px;
+        height: 36px;
+    }
+    
+    .logoLinkedin {
+        background-image: url(../assets/linkedin.png);
+        width: 31px;
+        height: 29px;
+    }
+    
+    .copyright{
+        font-size: 12px;
+        line-height: 40px;
+        margin: 50px 0 10px 0;
+    }
+    
+    .menuOpcoes2 {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 0 200px;
+        font-size: 18px;
+        width: 800px;
+    }
+
+    .menuOpcoes2 :hover {
+        font-weight: bold;
+        cursor: pointer;
+    }
 
 }
