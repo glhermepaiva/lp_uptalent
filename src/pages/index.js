@@ -9,20 +9,12 @@ export default function LandingPage() {
 
   /***** EXTERNAL LINKS  *****/
 
-  const openInstagram = () => {
-    window.open('https://www.instagram.com/');
-  }
-
   const openLinkedin = () => {
-    window.open('https://br.linkedin.com/');
-  }
-
-  const openFacebook = () => {
-    window.open('https://www.facebook.com/');
+    window.open('https://www.linkedin.com/company/uptalentrh/');
   }
 
   const openMaps = () => {
-    window.open('https://www.google.com.br/maps/');
+    window.open('https://goo.gl/maps/m1zxnHaACgxrymi66/');
   }
 
 /***** ANCHOR LINKS  *****/
@@ -58,7 +50,6 @@ const anchorContato = () => {
 /***** EMAIL VALIDATIONS  *****/
 
 const schema = yup.object().shape({
-  subject: yup.string().required('Algum assunto deve ser selecionado'),
   name: yup.string().required('Nome não pode estar em branco'),
   email: yup.string().email('Endereço de email inválido').required('Email não pode estar em branco'),
   phone: yup.number().min(11, 'O telefone precisa ter no mínimo 11 números').required('Telefone não pode estar em branco'),
@@ -73,17 +64,16 @@ const onSubmit = async (e) => {
   setLoading(true)
 
   let formData = {
-    subject: e.target[0].value,
-    name: e.target[1].value,
-    email: e.target[2].value,
-    phone: e.target[3].value,
-    message: e.target[4].value,
+    name: e.target[0].value,
+    email: e.target[1].value,
+    phone: e.target[2].value,
+    message: e.target[3].value,
   }
 
   const isValid = await schema.isValid(formData);
 
-  if (isValid && formData.subject == '1') {
-      emailjs.sendForm('service_xdtul6r', 'template_comercial', e.target, 'G6ql6Hx-_wrEAm6fd')
+  if (isValid) {
+      emailjs.sendForm('service_ibuddku', 'template_uptalent', e.target, 'user_qksKqi9BtojdtprKYCtue')
 
       .then((result) => {
           console.log(result);
@@ -94,33 +84,10 @@ const onSubmit = async (e) => {
           setLoading(false)
       });
 
-  } else if (isValid && formData.subject == '2') {
-    emailjs.sendForm('service_xdtul6r', 'template_atendimento', e.target, 'G6ql6Hx-_wrEAm6fd')
-
-    .then((result) => {
-        console.log(result);
-        alert("Sucesso! Logo entraremos em contato!")
-        window.location.href = "/?uri=";
-    }, (error) => {
-        console.log(error);
-        setLoading(false)
-    });
-
-  } else if (isValid && formData.subject == '3') {
-    emailjs.sendForm('service_15r2kjb', 'template_financeiro', e.target, 'yWzq25svn0E4FD_jn')
-
-    .then((result) => {
-        console.log(result);
-        alert("Sucesso! Logo entraremos em contato!")
-        window.location.href = "/?uri=";
-    }, (error) => {
-        console.log(error);
-        setLoading(false)
-    });
-
   } else {
-      alert("Por favor garanta que um assunto foi selecionado e os campos foram preenchidos corretamente e tente novamente.")
+      alert("Por favor garanta que todos os campos foram preenchidos corretamente e tente novamente.")
       setLoading(false)
+      console.log(formData)
     }
 }
 
@@ -266,9 +233,7 @@ const onSubmit = async (e) => {
             <div className={styles.emailtituloContato}>Email</div>
             <div className={styles.emailendContato}>fabi@uptalentrh.com.br</div>
             <div className={styles.endtituloContato}>Endereço</div>
-            <div className={styles.enderecoContato}>Avenida Lorem Ipsum, 000
-              00º andar - Vila Lorem Ipsum
-              00000-000 - São Paulo, SP
+            <div className={styles.enderecoContato}>Vila Madalena - São Paulo, SP
             </div>
           </div>
           <div className={styles.mapaContato} onClick={openMaps}/>
@@ -287,8 +252,6 @@ const onSubmit = async (e) => {
           <div onClick={anchorContato}>Contato</div>
         </div>
         <div className={styles.sociais}>
-          <div className={styles.logoFacebook} onClick={openFacebook}/>
-          <div className={styles.logoInstagram} onClick={openInstagram}/>
           <div className={styles.logoLinkedin} onClick={openLinkedin}/>
         </div>
         <div className={styles.copyright}>Copyright © 2022 Up Talent</div>
