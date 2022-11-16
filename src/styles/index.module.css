@@ -195,7 +195,7 @@
     font-size: 34px;
     line-height: 40px;
     color: #fff;
-    margin: 50px 0 10px 50px;
+    margin: 50px 0 10px 30px;
 }
 
 .imgBall {
@@ -205,7 +205,7 @@
     position: absolute;
     z-index: 0;
     overflow: hidden;
-    margin: -110px 0 0 -520px;
+    margin: -110px 0 0 -550px;
     transform: rotate(280deg);
 }
 
@@ -213,7 +213,7 @@
     width: 60px;
     height: 10px;
     background-color: #291234;
-    margin: 0px 0 50px 45px;
+    margin: 0px 0 50px -10px;
 }
 
 .textoDiferencial {
@@ -512,7 +512,7 @@
 .bgContato {
     background-color: #291234;
     color: #fff;
-    height: 1300px;
+    height: 1330px;
     border-radius: 30px;
     width: 90vw;
     margin: 0 auto;
@@ -545,12 +545,31 @@
     margin: 0px auto 50px auto;
 }
 
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formLoading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100vw;
+    font-size: 60px;
+  }
+
 .nomeContato {
     background-color: #fff;
     border-radius: 5px;
     margin: 0 auto 30px auto;
     padding: 3px;
     width: 90%;
+    height: 32px;
+    padding: 0 0 0 10px;
+    font-family: Segoe UI;
+    font-size: 15px;
 }
 
 .emailContato {
@@ -559,6 +578,10 @@
     margin: 0 auto 30px auto;
     padding: 3px;
     width: 90%;
+    height: 32px;
+    padding: 0 0 0 10px;
+    font-family: Segoe UI;
+    font-size: 15px;
 }
 
 .telefoneContato {
@@ -567,15 +590,30 @@
     margin: 0 auto 30px auto;
     padding: 3px;
     width: 90%;
+    height: 32px;
+    padding: 0 0 0 10px;
+    font-family: Segoe UI;
+    font-size: 15px;
 }
 
 .mensagemContato {
     background-color: #fff;
     border-radius: 5px;
     margin: 0 auto 30px auto;
-    padding: 0 0 100px 0;
     width: 90%;
+    font-family: Segoe UI;
+    font-size: 15px;
+
+    height: 150px;
+    padding: 10px 10px 0px 10px;
+    resize: none;
 }
+
+.mensagemContato::placeholder {
+    padding: 0px 0 0 0px;
+    font-family: Segoe UI;
+    font-size: 16px;
+  }
 
 .botaoContato {
     background-color: #57B89B;
@@ -591,6 +629,7 @@
     border-radius: 28px;
     cursor: pointer;
     margin: 0 0 0 15px;
+    border: none;
 }
 
 .imgBall3 {
@@ -600,7 +639,7 @@
     position: absolute;
     z-index: 0;
     overflow: hidden;
-    margin: -70px 0 0 280px;
+    margin: 0px 0 0 280px;
     transform: rotate(280deg);
 }
 
@@ -804,9 +843,9 @@
     }
     
     .textoDiferencial {
-        font-size: 16px;
-        line-height: 22px;
-        width: 52vw;
+        font-size: 20px;
+        line-height: 30px;
+        width: 54vw;
         margin: 0 auto 50px 173px;
     }
     
@@ -976,7 +1015,8 @@
         flex-direction: row;
         align-items: baseline;
         justify-content: space-around;
-        margin: -20px 0 0 0;
+        margin: -20px auto 0 auto;
+        width: 700px;
     }
     
     .contratacaoPontual {
@@ -1077,36 +1117,49 @@
         border-radius: 5px;
         margin: 0 auto 30px auto;
         padding: 7px;
-        width: 550px;
+        width: 600px;
+        height: 40px;
+        font-size: 20px;
     }
     
     .emailContato {
         border-radius: 5px;
         margin: 0 auto 30px auto;
-        padding: 7px;
-        width: 550px;
+        padding: 0px 0 0 10px;
+        width: 600px;
+        height: 40px;
+        font-size: 20px;
     }
     
     .telefoneContato {
         border-radius: 5px;
         margin: 0 auto 30px auto;
         padding: 7px;
-        width: 550px;
+        width: 600px;
+        height: 40px;
+        font-size: 20px;
     }
     
     .mensagemContato {
         border-radius: 5px;
         margin: 0 auto 30px auto;
-        padding: 0 0 200px 0;
-        width: 550px;
+        padding: 10px 0 200px 10px;
+        width: 600px;
+        font-size: 20px;
+        overflow: hidden;
     }
+
+    .mensagemContato::placeholder {
+        padding: 0px 0 0 0px;
+        font-size: 20px;
+      }
     
     .botaoContato {
         width: 220px;
         height: 51px;
         font-size: 25px;
         line-height: 0px;
-        margin: 0 0 0 80px;
+        margin: 0 auto 0 auto;
     }
     
     .imgBall3 {
@@ -1212,14 +1265,14 @@
     .menuOpcoes {
         display: flex;
         justify-content: space-between;
-        margin: -210px 20px 0 440px;
+        margin: -210px 20px 0 460px;
         font-size: 20px;
         font-weight: bold;
-        width: 900px;
+        width: 880px;
     }
 
     .menuOpcoes :hover {
-        color: #7b1ea7;
+        color: #fff;
         cursor: pointer;
     }
 
@@ -1257,7 +1310,7 @@
         position: absolute;
         z-index: -1;
         overflow: hidden;
-        top: 800px;
+        top: 700px;
         left: 0;
     }
     
@@ -1265,7 +1318,7 @@
         font-size: 60px;
         line-height: 50px;
         width: 235px;
-        margin: 450px auto 20px auto;
+        margin: 350px auto 20px auto;
         color: #E7CA29;
     }
 
@@ -1315,23 +1368,23 @@
         font-weight: bold;
         font-size: 60px;
         line-height: 40px;
-        margin: 80px auto 20px auto;
+        margin: 100px auto 20px auto;
     }
     
     .imgBall {
-        margin: 100px 0 0 -1100px;
-        transform: rotate(90deg);
+        margin: 150px 0 0 -1080px;
+        transform: rotate(0deg);
     }
 
     .imgBall4 {
         background-image: url(../assets/ball4.png);
-        width: 1303px;
-        height: 1303px;
+        width: 950px;
+        height: 950px;
         position: absolute;
         z-index: 0;
         overflow: hidden;
-        margin: -100px 0 0 1300px;
-        transform: rotate(0deg) scale(0.5);
+        margin: -250px 0 0 1450px;
+        transform: rotate(0deg) scale(0.7);
     }
     
     .purpleBar {
@@ -1352,7 +1405,7 @@
         font-size: 26px;
         line-height: 35px;
         width: 44vw;
-        margin: 0 0 80px 70px;
+        margin: 0 0 100px 70px;
         text-align: left;
     }
     
@@ -1360,7 +1413,7 @@
         background-image: url(../assets/tablet/idea.png);
         width: 703px;
         height: 500px;
-        margin: -50px 0 0 -280px;
+        margin: -300px 0 0 -280px;
     }
 
     .tituloClientes {
@@ -1487,10 +1540,9 @@
 
     .bgContratacao {
         background-image: url(../assets/desk_s/bgcontratacao.png);
-        width: 1800px;
-        height: 1800px;
-        left: -16vw;
-        margin: 100px 0 0 0;
+        width: 1600px;
+        height: 1600px;
+        margin: 100px 0 0 630px;
     }
     
     .tituloContratacao {
@@ -1511,14 +1563,14 @@
         background-image: url(../assets/tablet/gear.png);
         width: 653px;
         height: 400px;
-        margin: -450px 0 0 100px;
+        margin: -470px 0 0 100px;
     }
     
     .imgBall2 {
         background-image: url(../assets/mobile/ball2.png);
         width: 204px;
         height: 219px;
-        margin: -270px 0 0 1120px;
+        margin: -240px 0 0 1180px;
         transform: rotate(0deg);
     }
     
@@ -1597,7 +1649,7 @@
 
     .bgContato {
         width: 85vw;
-        height: 1100px;
+        height: 1080px;
         margin: -20px auto 0 auto;
         display: flex;
         flex-direction: column;
@@ -1615,7 +1667,7 @@
     .aquaBar {
         width: 60px;
         height: 12px;
-        margin: 15px auto 70px auto;
+        margin: 25px auto 70px auto;
     }
     
     .textoContato {
@@ -1623,35 +1675,39 @@
         line-height: 35px;
         text-align: left;
         width: 500px;
-        margin: 0px 0 80px 50px;
+        margin: 0px 0 60px 50px;
     }
     
     .nomeContato {
         border-radius: 5px;
-        margin: 0 0 30px 50px;
         padding: 7px;
         width: 550px;
+        margin: 0 0 30px -580px;
+        border: none;
     }
     
     .emailContato {
         border-radius: 5px;
-        margin: 0 0 30px 50px;
         padding: 7px;
         width: 550px;
+        margin: 0 0 30px -580px;
+        border: none;
     }
     
     .telefoneContato {
         border-radius: 5px;
-        margin: 0 0 30px 50px;
         padding: 7px;
         width: 550px;
+        margin: 0 0 30px -580px;
+        border: none;
     }
     
     .mensagemContato {
         border-radius: 5px;
-        margin: 0 0 30px 50px;
-        padding: 0 0 200px 0;
+        height: 200px;
         width: 550px;
+        margin: 0 0 30px -580px;
+        border: none;
     }
     
     .botaoContato {
@@ -1659,7 +1715,7 @@
         height: 51px;
         font-size: 25px;
         line-height: 0px;
-        margin: 0 0 30px 50px;
+        margin: 0 0 20px -910px;
     }
     
     .imgBall3 {
@@ -1671,7 +1727,7 @@
     }
     
     .infosContato {
-        margin: -530px 0 40px 700px;
+        margin: -490px 0 40px 700px;
         width: 280px;
     }
     
@@ -1819,7 +1875,7 @@
         position: absolute;
         z-index: -1;
         overflow: hidden;
-        top: 800px;
+        top: 750px;
         left: 0;
     }
     
@@ -1827,7 +1883,7 @@
         font-size: 60px;
         line-height: 50px;
         width: 235px;
-        margin: 450px auto 20px auto;
+        margin: 350px auto 20px auto;
         color: #E7CA29;
     }
 
@@ -1849,51 +1905,120 @@
     .containerServicos {
         justify-content: space-between;
         align-items: baseline;
-        width: 800px;
+        width: 1000px;
         margin: 250px auto 100px auto;
     }
     
     .topicoServicos1 {
         margin: 0 10px 0px 0;
     }
+
+    .svc1 {
+        background-image: url(../assets/svc1.png);
+        width: 119px;
+        height: 119px;
+        transform: scale(0.8);
+        margin: 0 auto;
+    }
+
+    .svcTexto1 {
+        font-size: 20px;
+        margin: 20px 0 0 0;
+    }
     
     .topicoServicos2 {
         margin: 0 10px 0 10px;
+    }
+
+    .svc2 {
+        background-image: url(../assets/svc2.png);
+        width: 113px;
+        height: 113px;
+        transform: scale(0.8);
+        margin: 0 auto;
+    }
+
+    .svcTexto2 {
+        font-size: 20px;
+        margin: 20px 0 0 0;
     }
     
     .topicoServicos3 {
         margin: 0 10px 0 10px;
     }
+
+    .svc3 {
+        background-image: url(../assets/svc3.png);
+        width: 134px;
+        height: 96px;
+        transform: scale(0.8);
+        margin: 0 auto;
+    }
+
+    .svcTexto3 {
+        font-size: 20px;
+        margin: 20px 0 0 0;
+    }
     
     .topicoServicos4 {
         margin: 0 10px 0 10px;
     }
+
+    .svc4 {
+        background-image: url(../assets/svc4.png);
+        width: 97px;
+        height: 98px;
+        transform: scale(0.8);
+        margin: 0 auto;
+    }
+
+    .svcTexto4 {
+        font-size: 20px;
+        margin: 20px 0 0 0;
+        width: 170px;
+    }
     
     .topicoServicos5 {
         margin: 0 0px 0 10px;
+    }
+
+    .svc5 {
+        background-image: url(../assets/svc5.png);
+        width: 116px;
+        height: 116px;
+        transform: scale(0.8);
+        margin: 0 auto;
+    }
+
+    .svcTexto5 {
+        font-size: 20px;
+        margin: 20px 0 0 0;
     }
     
     .tituloDiferencial {
         font-weight: bold;
         font-size: 60px;
         line-height: 40px;
-        margin: 80px auto 20px auto;
+        margin: 100px auto 20px auto;
     }
     
     .imgBall {
-        margin: 100px 0 0 -1100px;
-        transform: rotate(90deg);
+        background-image: url(../assets/ball.png);
+        width: 604px;
+        height: 604px;
+        margin: 150px 0 0 -1180px;
+        transform: rotate(0deg) scale(0.65);
     }
 
     .imgBall4 {
         background-image: url(../assets/ball4.png);
-        width: 1303px;
-        height: 1303px;
+        width: 950px;
+        height: 950px;
         position: absolute;
         z-index: 0;
         overflow: hidden;
-        margin: -100px 0 0 1300px;
-        transform: rotate(0deg) scale(0.5);
+        margin: -250px 0 0 1500px;
+        transform: rotate(0deg) scale(0.7);
     }
     
     .purpleBar {
@@ -1914,7 +2039,7 @@
         font-size: 26px;
         line-height: 35px;
         width: 44vw;
-        margin: 0 0 80px 70px;
+        margin: 0 0 100px 70px;
         text-align: left;
     }
     
@@ -1922,14 +2047,14 @@
         background-image: url(../assets/tablet/idea.png);
         width: 703px;
         height: 500px;
-        margin: -50px 0 0 -280px;
+        margin: -330px 0 0 -280px;
     }
 
     .tituloClientes {
         font-size: 50px;
         line-height: 40px;
         width: 360px;
-        margin: 120px auto 20px auto;
+        margin: 150px auto 20px auto;
     }
     
     .greenBar {
@@ -1967,7 +2092,7 @@
         font-size: 50px;
         line-height: 40px;
         width: 520px;
-        margin: 120px auto 30px auto;
+        margin: 150px auto 30px auto;
     }
     
     .yellowBar {
@@ -1980,7 +2105,7 @@
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
-        width: 1100px;
+        width: 1200px;
         margin: 0 auto;
     }
     
@@ -2049,10 +2174,9 @@
 
     .bgContratacao {
         background-image: url(../assets/desk_s/bgcontratacao.png);
-        width: 1800px;
-        height: 1800px;
-        left: -16vw;
-        margin: 100px 0 0 90px;
+        width: 1600px;
+        height: 1600px;
+        margin: 100px 0 0 700px;
     }
     
     .tituloContratacao {
@@ -2073,14 +2197,14 @@
         background-image: url(../assets/tablet/gear.png);
         width: 653px;
         height: 400px;
-        margin: -450px 0 0 100px;
+        margin: -470px 0 0 100px;
     }
     
     .imgBall2 {
         background-image: url(../assets/mobile/ball2.png);
         width: 204px;
         height: 219px;
-        margin: -270px 0 0 1120px;
+        margin: -250px 0 0 1230px;
         transform: rotate(0deg);
     }
     
@@ -2177,7 +2301,7 @@
     .aquaBar {
         width: 60px;
         height: 12px;
-        margin: 15px auto 70px auto;
+        margin: 25px auto 70px auto;
     }
     
     .textoContato {
@@ -2190,50 +2314,64 @@
     
     .nomeContato {
         border-radius: 5px;
-        margin: 0 0 30px 50px;
-        padding: 7px;
+        margin: 0 0 40px -580px;
+        padding: 0px 0 0 10px;
         width: 550px;
+        border: none;
+        font-size: 18px;
     }
     
     .emailContato {
         border-radius: 5px;
-        margin: 0 0 30px 50px;
-        padding: 7px;
+        margin: 0 0 40px -580px;
+        padding: 0px 0 0 10px;
         width: 550px;
+        border: none;
+        font-size: 18px;
     }
     
     .telefoneContato {
         border-radius: 5px;
-        margin: 0 0 30px 50px;
-        padding: 7px;
+        margin: 0 0 40px -580px;
+        padding: 0px 0 0 10px;
         width: 550px;
+        border: none;
+        font-size: 18px;
     }
     
     .mensagemContato {
         border-radius: 5px;
-        margin: 0 0 30px 50px;
-        padding: 0 0 200px 0;
+        margin: 0 0 40px -580px;
+        height: 200px;
         width: 550px;
+        border: none;
+        font-size: 18px;
+        padding: 10px 0 0 10px;
     }
+
+    .mensagemContato::placeholder {
+        padding: 0px 0 0 0px;
+        font-size: 18px;
+      }
     
     .botaoContato {
         width: 220px;
         height: 51px;
         font-size: 25px;
         line-height: 0px;
-        margin: 0 0 30px 50px;
+        margin: 0 0 30px -910px;
     }
     
     .imgBall3 {
         background-image: url(../assets/mobile/ball3.png);
         width: 144px;
         height: 200px;
-        margin: -650px 0 0 1080px;
+        margin: -550px 0 0 1200px;
         transform: rotate(0deg);
     }
     
     .infosContato {
-        margin: -530px 0 40px 700px;
+        margin: -540px 0 40px 700px;
         width: 280px;
     }
     
@@ -2422,7 +2560,7 @@
         justify-content: space-between;
         align-items: baseline;
         width: 1300px;
-        margin: 250px auto 100px auto;
+        margin: 250px auto 200px auto;
     }
     
     .topicoServicos1 {
@@ -2523,19 +2661,19 @@
         background-image: url(../assets/ball.png);
         width: 604px;
         height: 604px;
-        margin: 200px 0 0 -1600px;
+        margin: 250px 0 0 -1630px;
         transform: rotate(0deg);
     }
 
     .imgBall4 {
         background-image: url(../assets/ball4.png);
-        width: 1303px;
-        height: 1303px;
+        width: 950px;
+        height: 950px;
         position: absolute;
         z-index: 0;
         overflow: hidden;
-        margin: -300px 0 0 1500px;
-        transform: rotate(0deg) scale(0.5);
+        margin: -500px 0 0 1600px;
+        transform: rotate(0deg) scale(0.7);
     }
     
     .purpleBar {
@@ -2564,14 +2702,14 @@
         background-image: url(../assets/idea.png);
         width: 1124px;
         height: 800px;
-        margin: -200px 0 0 -280px;
+        margin: -420px 0 0 -200px;
     }
 
     .tituloClientes {
         font-size: 60px;
         line-height: 50px;
         width: 440px;
-        margin: 120px auto 30px auto;
+        margin: 150px auto 30px auto;
     }
     
     .greenBar {
@@ -2613,7 +2751,7 @@
         font-size: 60px;
         line-height: 50px;
         width: 630px;
-        margin: 120px auto 40px auto;
+        margin: 150px auto 40px auto;
     }
     
     .yellowBar {
@@ -2629,14 +2767,14 @@
         position: absolute;
         z-index: 0;
         overflow: hidden;
-        margin: -350px 0 50px -380px;
+        margin: -350px 0 50px -390px;
     }
     
     .containerEquipe {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
-        width: 1200px;
+        width: 1300px;
         margin: 0 auto 20px auto;
     }
     
@@ -2714,7 +2852,7 @@
         font-size: 60px;
         line-height: 50px;
         width: 690px;
-        margin: 280px auto 70px auto;
+        margin: 320px auto 70px auto;
         text-align: center;
     }
     
@@ -2728,14 +2866,14 @@
         background-image: url(../assets/gear.png);
         width: 866px;
         height: 530px;
-        margin: -560px 0 0 100px;
+        margin: -570px 0 0 100px;
     }
     
     .imgBall2 {
         background-image: url(../assets/ball2.png);
         width: 407px;
         height: 437px;
-        margin: -350px 0 0 1400px;
+        margin: -390px 0 0 1400px;
         transform: rotate(0deg);
     }
     
@@ -2818,7 +2956,7 @@
 
     .bgContato {
         width: 85vw;
-        height: 1370px;
+        height: 1360px;
         margin: -20px auto 0 auto;
         display: flex;
         flex-direction: column;
@@ -2849,38 +2987,52 @@
     
     .nomeContato {
         border-radius: 5px;
-        margin: 0 0 30px 50px;
-        padding: 7px;
+        margin: 0 0 40px -750px;
+        padding: 0px 0 0 10px;
         width: 650px;
+        border: none;
+        font-size: 18px;
     }
     
     .emailContato {
         border-radius: 5px;
-        margin: 0 0 30px 50px;
-        padding: 7px;
+        margin: 0 0 40px -750px;
+        padding: 0px 0 0 10px;
         width: 650px;
+        border: none;
+        font-size: 18px;
     }
     
     .telefoneContato {
         border-radius: 5px;
-        margin: 0 0 30px 50px;
-        padding: 7px;
+        margin: 0 0 40px -750px;
+        padding: 0px 0 0 10px;
         width: 650px;
+        border: none;
+        font-size: 18px;
     }
     
     .mensagemContato {
         border-radius: 5px;
-        margin: 0 0 30px 50px;
-        padding: 0 0 200px 0;
+        margin: 0 0 40px -750px;
+        padding: 10px 0 0px 10px;
         width: 650px;
+        border: none;
+        font-size: 18px;
+        height: 200px;
     }
+
+    .mensagemContato::placeholder {
+        padding: 5px 0 0 2px;
+        font-size: 18px;
+      }
     
     .botaoContato {
         width: 220px;
         height: 51px;
         font-size: 25px;
         line-height: 0px;
-        margin: 0 0 30px 50px;
+        margin: 0 0 0px -1180px;
     }
     
     .imgBall3 {
@@ -2892,7 +3044,7 @@
     }
     
     .infosContato {
-        margin: -540px 0 40px 800px;
+        margin: -520px 0 40px 800px;
         width: 280px;
     }
     
@@ -2926,7 +3078,7 @@
     }
 
     .footer {
-        margin: 150px 0 0 0;
+        margin: 130px 0 0 0;
     }
     
     .uptalentLogoP {
@@ -2938,7 +3090,7 @@
     
     .sociais {
         width: 230px;
-        margin: -30px 0 0 1400px;
+        margin: -30px 0 0 1350px;
     }
     
     .logoFacebook {

@@ -1,9 +1,130 @@
 import Head from 'next/head'
+import { useState, useEffect } from 'react'
 import styles from '../styles/index.module.css'
+import * as yup from 'yup'
+import emailjs from 'emailjs-com'
+import ReactLoading from 'react-loading'
 
 export default function LandingPage() {
 
+  /***** EXTERNAL LINKS  *****/
 
+  const openInstagram = () => {
+    window.open('https://www.instagram.com/');
+  }
+
+  const openLinkedin = () => {
+    window.open('https://br.linkedin.com/');
+  }
+
+  const openFacebook = () => {
+    window.open('https://www.facebook.com/');
+  }
+
+  const openMaps = () => {
+    window.open('https://www.google.com.br/maps/');
+  }
+
+/***** ANCHOR LINKS  *****/
+
+const anchorHeader = () => {
+  window.location.replace("/#header")
+}
+
+const anchorServicos = () => {
+  window.location.replace("/#servicos")
+}
+
+const anchorDiferencial = () => {
+  window.location.replace("/#diferencial")
+}
+
+const anchorClientes = () => {
+  window.location.replace("/#clientes")
+}
+
+const anchorEquipe = () => {
+  window.location.replace("/#equipe")
+}
+
+const anchorContratacao = () => {
+  window.location.replace("/#contratacao")
+}
+
+const anchorContato = () => {
+  window.location.replace("/#contato")
+}
+
+/***** EMAIL VALIDATIONS  *****/
+
+const schema = yup.object().shape({
+  subject: yup.string().required('Algum assunto deve ser selecionado'),
+  name: yup.string().required('Nome não pode estar em branco'),
+  email: yup.string().email('Endereço de email inválido').required('Email não pode estar em branco'),
+  phone: yup.number().min(11, 'O telefone precisa ter no mínimo 11 números').required('Telefone não pode estar em branco'),
+  message: yup.string().min(3, 'A mensagem deve ter no mínimo 3 caracteres').max(300, 'A mensagem pode ter no máximo 300 caracteres').required('Mensagem não pode estar em branco')
+})
+
+const [loading, setLoading] = useState(false)
+
+const onSubmit = async (e) => {
+  e.preventDefault()
+
+  setLoading(true)
+
+  let formData = {
+    subject: e.target[0].value,
+    name: e.target[1].value,
+    email: e.target[2].value,
+    phone: e.target[3].value,
+    message: e.target[4].value,
+  }
+
+  const isValid = await schema.isValid(formData);
+
+  if (isValid && formData.subject == '1') {
+      emailjs.sendForm('service_xdtul6r', 'template_comercial', e.target, 'G6ql6Hx-_wrEAm6fd')
+
+      .then((result) => {
+          console.log(result);
+          alert("Sucesso! Logo entraremos em contato!")
+          window.location.href = "/?uri=";
+      }, (error) => {
+          console.log(error);
+          setLoading(false)
+      });
+
+  } else if (isValid && formData.subject == '2') {
+    emailjs.sendForm('service_xdtul6r', 'template_atendimento', e.target, 'G6ql6Hx-_wrEAm6fd')
+
+    .then((result) => {
+        console.log(result);
+        alert("Sucesso! Logo entraremos em contato!")
+        window.location.href = "/?uri=";
+    }, (error) => {
+        console.log(error);
+        setLoading(false)
+    });
+
+  } else if (isValid && formData.subject == '3') {
+    emailjs.sendForm('service_15r2kjb', 'template_financeiro', e.target, 'yWzq25svn0E4FD_jn')
+
+    .then((result) => {
+        console.log(result);
+        alert("Sucesso! Logo entraremos em contato!")
+        window.location.href = "/?uri=";
+    }, (error) => {
+        console.log(error);
+        setLoading(false)
+    });
+
+  } else {
+      alert("Por favor garanta que um assunto foi selecionado e os campos foram preenchidos corretamente e tente novamente.")
+      setLoading(false)
+    }
+}
+
+/***** RETURN  *****/
 
   return (
     <div className={styles.page}>
@@ -13,16 +134,16 @@ export default function LandingPage() {
       </Head>
 
 
-      <div className={styles.uptalentLogoG} />
+      <div className={styles.uptalentLogoG} id='header'/>
 
 
       <div className={styles.menuOpcoes}>
-        <div>Serviços</div>
-        <div>Nosso diferencial</div>
-        <div>Nossos clientes</div>
-        <div>A equipe</div>
-        <div>Modelo de contratação</div>
-        <div>Contato</div>
+        <div onClick={anchorServicos}>Serviços</div>
+          <div onClick={anchorDiferencial}>Nosso diferencial</div>
+          <div onClick={anchorClientes}>Nossos clientes</div>
+          <div onClick={anchorEquipe}>A equipe</div>
+          <div onClick={anchorContratacao}>Modelo de contratação</div>
+          <div onClick={anchorContato}>Contato</div>
       </div>
 
       <div className={styles.imgHero} />
@@ -31,7 +152,7 @@ export default function LandingPage() {
       <div className={styles.blackBar} />
       <div className={styles.redBall} />
 
-      <div className={styles.tituloServicos}>Serviços</div>
+      <div className={styles.tituloServicos} id='servicos'>Serviços</div>
       <div className={styles.bgServicos}></div>
       <div className={styles.imgAnalyst} />
       <div className={styles.textoServicos}>Uma consultoria em RH focada em recrutamento e seleção de profissionais da área digital.</div>
@@ -60,7 +181,7 @@ export default function LandingPage() {
       </div>
 
 
-      <div className={styles.bgDiferencial}>
+      <div className={styles.bgDiferencial} id='diferencial'>
         <div className={styles.tituloDiferencial}>Nosso diferencial</div>
         <div className={styles.imgBall} />
         <div className={styles.imgBall4} />
@@ -70,7 +191,7 @@ export default function LandingPage() {
       </div>
 
 
-      <div className={styles.tituloClientes}>Nossos clientes</div>
+      <div className={styles.tituloClientes} id='clientes'>Nossos clientes</div>
       <div className={styles.greenBar} />
       <div className={styles.bgClientes}>
         <div className={styles.yoLogo} />
@@ -79,7 +200,7 @@ export default function LandingPage() {
       </div>
 
 
-      <div className={styles.tituloEquipe}>Conheça nossa equipe</div>
+      <div className={styles.tituloEquipe} id='equipe'>Conheça nossa equipe</div>
       <div className={styles.yellowBar} />
       <div className={styles.yellowBall} />
       <div className={styles.containerEquipe}>
@@ -101,7 +222,7 @@ export default function LandingPage() {
       </div>
       
 
-      <div className={styles.bgContratacao} />
+      <div className={styles.bgContratacao} id='contratacao'/>
       <div className={styles.tituloContratacao}>Modelos de contratação</div>
       <div className={styles.whiteBar}></div>
       <div className={styles.imgGear}></div>
@@ -127,18 +248,19 @@ export default function LandingPage() {
       </div>
 
 
-      <div className={styles.bgContato}>
+      <div className={styles.bgContato} id='contato'>
         <div className={styles.tituloContato}>Contato</div>
         <div className={styles.aquaBar}></div>
         <div className={styles.containerContato}>
           <div className={styles.textoContato}>Vamos bater um papo? <b>Manda uma mensagem pra gente e diz como podemos te ajudar hoje.</b></div>
-          <div>
-            <div className={styles.nomeContato}>Nome</div>
-            <div className={styles.emailContato}>Email</div>
-            <div className={styles.telefoneContato}>Telefone</div>
-            <div className={styles.mensagemContato}>Mensagem</div>
-            <div className={styles.botaoContato}>Enviar</div>
-          </div>
+            {loading ? <div className={styles.formLoading}><ReactLoading type={"spinningBubbles"} color={"#EB6099"} height={"20%"} width={"20%"}/></div> :
+          <form className={styles.contactForm} onSubmit={onSubmit}>
+            <input className={styles.nomeContato} type="text" name="name" placeholder="Nome"></input>
+            <input className={styles.emailContato} type="text" name="email" placeholder="Email"></input>
+            <input className={styles.telefoneContato} type="text" name="phone" placeholder="Telefone"></input>
+            <textarea className={styles.mensagemContato} type="textarea" name="message" placeholder="Deixe sua mensagem aqui..."></textarea>
+            <button className={styles.botaoContato}>Enviar</button>
+          </form>}
           <div className={styles.imgBall3}></div>
           <div className={styles.infosContato}>
             <div className={styles.emailtituloContato}>Email</div>
@@ -149,25 +271,25 @@ export default function LandingPage() {
               00000-000 - São Paulo, SP
             </div>
           </div>
-          <div className={styles.mapaContato} />
+          <div className={styles.mapaContato} onClick={openMaps}/>
         </div>
       </div>
 
 
       <div className={styles.footer}>
-        <div className={styles.uptalentLogoP} />
+        <div className={styles.uptalentLogoP} onClick={anchorHeader}/>
         <div className={styles.menuOpcoes2}>
-          <div>Serviços</div>
-          <div>Nosso diferencial</div>
-          <div>Nossos clientes</div>
-          <div>A equipe</div>
-          <div>Modelo de contratação</div>
-          <div>Contato</div>
+          <div onClick={anchorServicos}>Serviços</div>
+          <div onClick={anchorDiferencial}>Nosso diferencial</div>
+          <div onClick={anchorClientes}>Nossos clientes</div>
+          <div onClick={anchorEquipe}>A equipe</div>
+          <div onClick={anchorContratacao}>Modelo de contratação</div>
+          <div onClick={anchorContato}>Contato</div>
         </div>
         <div className={styles.sociais}>
-          <div className={styles.logoFacebook} />
-          <div className={styles.logoInstagram} />
-          <div className={styles.logoLinkedin} />
+          <div className={styles.logoFacebook} onClick={openFacebook}/>
+          <div className={styles.logoInstagram} onClick={openInstagram}/>
+          <div className={styles.logoLinkedin} onClick={openLinkedin}/>
         </div>
         <div className={styles.copyright}>Copyright © 2022 Up Talent</div>
       </div>
