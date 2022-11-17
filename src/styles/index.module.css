@@ -1738,7 +1738,7 @@
         border-radius: 5px;
         padding: 0 0 0 10px;
         width: 550px;
-        margin: 0 0 30px -580px;
+        margin: 0 0 30px -540px;
         border: none;
         font-size: 18px;
     }
@@ -1747,7 +1747,7 @@
         border-radius: 5px;
         padding: 0 0 0 10px;
         width: 550px;
-        margin: 0 0 30px -580px;
+        margin: 0 0 30px -540px;
         border: none;
         font-size: 18px;
     }
@@ -1756,7 +1756,7 @@
         border-radius: 5px;
         padding: 0 0 0 10px;
         width: 550px;
-        margin: 0 0 30px -580px;
+        margin: 0 0 30px -540px;
         border: none;
         font-size: 18px;
     }
@@ -1765,7 +1765,7 @@
         border-radius: 5px;
         height: 200px;
         width: 550px;
-        margin: 0 0 30px -580px;
+        margin: 0 0 30px -540px;
         border: none;
         font-size: 18px;
     }
@@ -1780,7 +1780,7 @@
         height: 51px;
         font-size: 25px;
         line-height: 0px;
-        margin: 0 0 20px -910px;
+        margin: 0 0 20px -870px;
     }
     
     .imgBall3 {
@@ -1792,7 +1792,7 @@
     }
     
     .infosContato {
-        margin: -490px 0 40px 700px;
+        margin: -490px 0 40px 660px;
         width: 280px;
     }
     
@@ -1821,7 +1821,7 @@
         background-image: url(../assets/desk_s/mapa.png);
         width: 525px;
         height: 372px;
-        margin: 0 0 0 700px;
+        margin: 0 0 0 660px;
     }
 
     .formLoading{
@@ -1831,7 +1831,7 @@
         height: 515px;
         width: 50vw;
         font-size: 60px;
-      }
+    }
 
     .footer {
         margin: 40px 0 0 0;
@@ -1924,9 +1924,9 @@
     }
     
     .blackBar {
-        width: 50px;
+        width: 60px;
         height: 12px;
-        margin: 20px 0 0 440px;
+        margin: 50px 0 0 1220px;
     }
 
     .imgAnalyst{
@@ -1951,7 +1951,7 @@
         font-size: 60px;
         line-height: 50px;
         width: 235px;
-        margin: 350px auto 20px auto;
+        margin: 320px auto 20px auto;
         color: #E7CA29;
     }
 
@@ -2351,7 +2351,7 @@
 
     .bgContato {
         width: 85vw;
-        height: 1100px;
+        height: 1040px;
         margin: -20px auto 0 auto;
         display: flex;
         flex-direction: column;
@@ -2377,12 +2377,12 @@
         line-height: 35px;
         text-align: left;
         width: 500px;
-        margin: 0px 0 80px 50px;
+        margin: 0px 0 80px 70px;
     }
     
     .nomeContato {
         border-radius: 5px;
-        margin: 0 0 40px -580px;
+        margin: 0 0 40px -550px;
         padding: 0px 0 0 10px;
         width: 550px;
         border: none;
@@ -2391,7 +2391,7 @@
     
     .emailContato {
         border-radius: 5px;
-        margin: 0 0 40px -580px;
+        margin: 0 0 40px -550px;
         padding: 0px 0 0 10px;
         width: 550px;
         border: none;
@@ -2400,7 +2400,7 @@
     
     .telefoneContato {
         border-radius: 5px;
-        margin: 0 0 40px -580px;
+        margin: 0 0 40px -550px;
         padding: 0px 0 0 10px;
         width: 550px;
         border: none;
@@ -2409,7 +2409,7 @@
     
     .mensagemContato {
         border-radius: 5px;
-        margin: 0 0 40px -580px;
+        margin: 0 0 40px -550px;
         height: 200px;
         width: 550px;
         border: none;
@@ -2420,21 +2420,30 @@
     .mensagemContato::placeholder {
         padding: 0px 0 0 0px;
         font-size: 18px;
-      }
+    }
     
     .botaoContato {
         width: 220px;
         height: 51px;
         font-size: 25px;
         line-height: 0px;
-        margin: 0 0 30px -910px;
+        margin: 0 0 30px -880px;
+    }
+
+    .formLoading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 595px;
+        width: 45vw;
+        font-size: 60px;
     }
     
     .imgBall3 {
         background-image: url(../assets/mobile/ball3.png);
         width: 144px;
         height: 200px;
-        margin: -550px 0 0 1200px;
+        margin: -620px 0 0 1200px;
         transform: rotate(0deg);
     }
     
@@ -2470,6 +2479,10 @@
         height: 372px;
         margin: 0 0 0 700px;
     }
+
+    .footer { 
+        margin: 50px 0 0 0;
+    }
     
     .uptalentLogoP {
         background-image: url(../assets/mobile/logop.png);
@@ -2483,22 +2496,11 @@
         margin: -30px 0 0 1030px;
     }
     
-    .logoFacebook {
-        background-image: url(../assets/facebook.png);
-        width: 16px;
-        height: 35px;
-    }
-    
-    .logoInstagram {
-        background-image: url(../assets/instagram.png);
-        width: 36px;
-        height: 36px;
-    }
-    
     .logoLinkedin {
-        background-image: url(../assets/linkedin.png);
-        width: 31px;
-        height: 29px;
+        background-image: url(../assets/tablet/linkedin.png);
+        width: 62px;
+        height: 62px;
+        margin: -50px -250px 0 100px;
     }
     
     .copyright{
@@ -2579,7 +2581,7 @@
     
     .blackBar {
         width: 139px;
-        height: 34px;
+        height: 30px;
         margin: 50px 0 0 1250px;
     }
 
@@ -3024,7 +3026,7 @@
 
     .bgContato {
         width: 85vw;
-        height: 1360px;
+        height: 1280px;
         margin: -20px auto 0 auto;
         display: flex;
         flex-direction: column;
@@ -3042,7 +3044,7 @@
     .aquaBar {
         width: 117px;
         height: 20px;
-        margin: 30px auto 70px auto;
+        margin: 30px auto 100px auto;
     }
     
     .textoContato {
@@ -3107,7 +3109,7 @@
         background-image: url(../assets/ball3.png);
         width: 209px;
         height: 291px;
-        margin: -520px 0 0 1330px;
+        margin: -620px 0 0 1330px;
         transform: rotate(0deg);
     }
     
@@ -3145,6 +3147,15 @@
         margin: 0 0 0 800px;
     }
 
+    .formLoading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        width: 50vw;
+        font-size: 60px;
+    }
+
     .footer {
         margin: 130px 0 0 0;
     }
@@ -3161,22 +3172,11 @@
         margin: -30px 0 0 1350px;
     }
     
-    .logoFacebook {
-        background-image: url(../assets/facebook.png);
-        width: 16px;
-        height: 35px;
-    }
-    
-    .logoInstagram {
-        background-image: url(../assets/instagram.png);
-        width: 36px;
-        height: 36px;
-    }
-    
     .logoLinkedin {
-        background-image: url(../assets/linkedin.png);
-        width: 31px;
-        height: 29px;
+        background-image: url(../assets/tablet/linkedin.png);
+        width: 62px;
+        height: 62px;
+        margin: -40px 0 0 0;
     }
     
     .copyright{
@@ -3257,7 +3257,7 @@
     
     .blackBar {
         width: 139px;
-        height: 34px;
+        height: 30px;
         margin: 50px 0 0 1380px;
     }
 
@@ -3589,9 +3589,9 @@
 
     .bgContratacao {
         background-image: url(../assets/bgcontratacao.png);
-        width: 2300px;
-        height: 2300px;
-        margin: 100px 0 0 550px;
+        width: 2200px;
+        height: 2200px;
+        margin: 100px 0 0 600px;
     }
     
     .tituloContratacao {
@@ -3619,7 +3619,7 @@
         background-image: url(../assets/ball2.png);
         width: 407px;
         height: 437px;
-        margin: -350px 0 0 1530px;
+        margin: -340px 0 0 1530px;
         transform: rotate(0deg);
     }
     
@@ -3702,7 +3702,7 @@
 
     .bgContato {
         width: 85vw;
-        height: 1370px;
+        height: 1260px;
         margin: -20px auto 0 auto;
         display: flex;
         flex-direction: column;
@@ -3733,30 +3733,31 @@
     
     .nomeContato {
         border-radius: 5px;
-        margin: 0 0 30px 50px;
+        margin: 0px 0 40px -750px;
         padding: 7px;
         width: 734px;
     }
     
     .emailContato {
         border-radius: 5px;
-        margin: 0 0 30px 50px;
+        margin: 0px 0 40px -750px;
         padding: 7px;
         width: 734px;
     }
     
     .telefoneContato {
         border-radius: 5px;
-        margin: 0 0 30px 50px;
+        margin: 0px 0 40px -750px;
         padding: 7px;
         width: 734px;
     }
     
     .mensagemContato {
         border-radius: 5px;
-        margin: 0 0 30px 50px;
-        padding: 0 0 200px 0;
+        margin: 0px 0 40px -750px;
+        padding: 0 0 0px 0;
         width: 734px;
+        height: 250px;
     }
     
     .botaoContato {
@@ -3764,19 +3765,19 @@
         height: 51px;
         font-size: 25px;
         line-height: 0px;
-        margin: 0 0 30px 50px;
+        margin: 0 0 30px -1270px;
     }
     
     .imgBall3 {
         background-image: url(../assets/ball3.png);
         width: 209px;
         height: 291px;
-        margin: -520px 0 0 1500px;
+        margin: -700px 0 0 1500px;
         transform: rotate(0deg);
     }
     
     .infosContato {
-        margin: -540px 0 40px 900px;
+        margin: -600px 0 40px 880px;
         width: 280px;
     }
     
@@ -3806,11 +3807,11 @@
         background-image: url(../assets/mapa.png);
         width: 698px;
         height: 495px;
-        margin: 0 0 0 900px;
+        margin: 0 0 0 880px;
     }
 
     .footer {
-        margin: 150px 0 0 0;
+        margin: 130px 0 0 0;
     }
     
     .uptalentLogoP {
@@ -3825,28 +3826,17 @@
         margin: -30px 0 0 1500px;
     }
     
-    .logoFacebook {
-        background-image: url(../assets/facebook.png);
-        width: 16px;
-        height: 35px;
-    }
-    
-    .logoInstagram {
-        background-image: url(../assets/instagram.png);
-        width: 36px;
-        height: 36px;
-    }
-    
     .logoLinkedin {
-        background-image: url(../assets/linkedin.png);
-        width: 31px;
-        height: 29px;
+        background-image: url(../assets/tablet/linkedin.png);
+        width: 62px;
+        height: 62px;
+        margin: -40px 0 0 100px;
     }
     
     .copyright{
-        font-size: 12px;
+        font-size: 11px;
         line-height: 40px;
-        margin: 50px 0 10px 0;
+        margin: 60px 0 10px 0;
     }
     
     .menuOpcoes2 {
