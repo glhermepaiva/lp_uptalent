@@ -286,7 +286,7 @@
     font-size: 36px;
     line-height: 40px;
     width: 375px;
-    margin: 60px auto 15px auto;
+    margin: 80px auto 15px auto;
 }
 
 .yellowBar {
@@ -756,7 +756,7 @@
     }
     
     .blackBar {
-        width: 50px;
+        width: 60px;
         height: 12px;
         margin: 30px 0 0 390px;
     }
@@ -793,7 +793,7 @@
         justify-content: space-between;
         align-items: baseline;
         width: 640px;
-        margin: 210px 0 100px 150px;
+        margin: 210px 0 100px 130px;
     }
     
     .topicoServicos1 {
@@ -851,7 +851,7 @@
         font-size: 50px;
         line-height: 40px;
         width: 360px;
-        margin: 100px auto 20px auto;
+        margin: 120px auto 20px auto;
     }
     
     .greenBar {
@@ -885,7 +885,7 @@
         font-size: 50px;
         line-height: 40px;
         width: 520px;
-        margin: 100px auto 30px auto;
+        margin: 120px auto 30px auto;
     }
     
     .yellowBar {
@@ -984,22 +984,22 @@
     .whiteBar {
         width: 60px;
         height: 12px;
-        margin: -40px auto 160px auto;
+        margin: -40px auto 170px auto;
     }
     
     .imgGear {
         background-image: url(../assets/tablet/gear.png);
         width: 653px;
         height: 400px;
-        margin: -400px 0 0 -5px;
+        margin: -400px 0 0 -30px;
     }
     
     .imgBall2 {
         background-image: url(../assets/mobile/ball2.png);
         width: 204px;
         height: 219px;
-        margin: -260px 0 0 690px;
-        transform: rotate(0deg);
+        margin: -200px 0 0 670px;
+        transform: rotate(90deg);
     }
     
     .containerContratacao {
@@ -1076,7 +1076,7 @@
     }
 
     .bgContato {
-        height: 1180px;
+        height: 1240px;
         width: 90vw;
         margin: -20px auto 0 auto;
         display: flex;
@@ -1087,7 +1087,7 @@
     .tituloContato {
         font-size: 50px;
         line-height: 40px;
-        margin: 70px 0 0 0;
+        margin: 100px 0 0 0;
     }
     
     .aquaBar {
@@ -1200,7 +1200,7 @@
         background-image: url(../assets/mobile/mapa.png);
         width: 340px;
         height: 241px;
-        margin: -260px -30px 0 400px;
+        margin: -220px -30px 0 400px;
     }
     
     .uptalentLogoP {
@@ -1220,7 +1220,7 @@
         width: 62px;
         height: 62px;
         transform: scale(0.8);
-        margin: -15px 0 0 100px;
+        margin: -15px 0 0 20px;
     }
     
     .copyright{
@@ -1623,11 +1623,11 @@
     }
     
     .imgBall2 {
-        background-image: url(../assets/mobile/ball2.png);
-        width: 204px;
-        height: 219px;
-        margin: -240px 0 0 1180px;
-        transform: rotate(0deg);
+        background-image: url(../assets/ball2.png);
+        width: 407px;
+        height: 437px;
+        margin: -330px 0 0 1100px;
+        transform: rotate(0deg) scale(0.7);
     }
     
     .containerContratacao {
@@ -1822,6 +1822,7 @@
         width: 525px;
         height: 372px;
         margin: 0 0 0 660px;
+        cursor: pointer;
     }
 
     .formLoading{
@@ -2265,15 +2266,15 @@
         background-image: url(../assets/tablet/gear.png);
         width: 653px;
         height: 400px;
-        margin: -470px 0 0 100px;
+        margin: -470px 0 0 150px;
     }
     
     .imgBall2 {
-        background-image: url(../assets/mobile/ball2.png);
-        width: 204px;
-        height: 219px;
-        margin: -250px 0 0 1230px;
-        transform: rotate(0deg);
+        background-image: url(../assets/ball2.png);
+        width: 407px;
+        height: 437px;
+        margin: -270px 0 0 1230px;
+        transform: rotate(0deg) scale(0.8);
     }
     
     .containerContratacao {
@@ -2434,7 +2435,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 595px;
+        height: 545px;
         width: 45vw;
         font-size: 60px;
     }
@@ -2478,6 +2479,7 @@
         width: 525px;
         height: 372px;
         margin: 0 0 0 700px;
+        cursor: pointer;
     }
 
     .footer { 
@@ -2580,8 +2582,8 @@
     }
     
     .blackBar {
-        width: 139px;
-        height: 30px;
+        width: 117px;
+        height: 20px;
         margin: 50px 0 0 1250px;
     }
 
@@ -2913,9 +2915,9 @@
 
     .bgContratacao {
         background-image: url(../assets/bgcontratacao.png);
-        width: 2300px;
-        height: 2300px;
-        margin: 100px 0 0 450px;
+        width: 2200px;
+        height: 2200px;
+        margin: 100px 0 0 500px;
     }
     
     .tituloContratacao {
@@ -2943,7 +2945,7 @@
         background-image: url(../assets/ball2.png);
         width: 407px;
         height: 437px;
-        margin: -390px 0 0 1400px;
+        margin: -380px 0 0 1350px;
         transform: rotate(0deg);
     }
     
@@ -3145,6 +3147,7 @@
         width: 698px;
         height: 495px;
         margin: 0 0 0 800px;
+        cursor: pointer;
     }
 
     .formLoading{
@@ -3256,8 +3259,8 @@
     }
     
     .blackBar {
-        width: 139px;
-        height: 30px;
+        width: 130px;
+        height: 24px;
         margin: 50px 0 0 1380px;
     }
 
@@ -3808,6 +3811,7 @@
         width: 698px;
         height: 495px;
         margin: 0 0 0 880px;
+        cursor: pointer;
     }
 
     .footer {
