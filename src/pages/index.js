@@ -77,8 +77,8 @@ const onSubmit = async (e) => {
 
       .then((result) => {
           console.log(result);
-          // alert("Sucesso! Logo entraremos em contato!")
-          // window.location.href = "/?uri=";
+          alert("Sucesso! Logo entraremos em contato!")
+          window.location.href = "/?uri=";
       }, (error) => {
           console.log(error);
           setLoading(false)
