@@ -9,6 +9,20 @@ html, body {
   overflow-x: hidden;
 }
 
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('../assets/fonts/Segoe-UI.woff');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('../assets/fonts/Segoe-UI-Bold.woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
 a {
   color: inherit;
   text-decoration: none;
