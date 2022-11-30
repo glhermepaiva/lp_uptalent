@@ -63,14 +63,14 @@
     font-size: 40px;
     line-height: 40px;
     color: #fff;
-    margin: 180px 0 20px 220px;
+    margin: 180px 0 20px 210px;
 }
 
 .textoServicos {
     font-size: 20px;
     line-height: 22px;
     width: 250px;
-    margin: 0 0 0px 125px;
+    margin: 0 0 0px 115px;
     text-align: right;
 }
 
@@ -284,9 +284,10 @@
 
 .tituloEquipe {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 35px;
     line-height: 40px;
     width: 375px;
+    text-align: center;
     margin: 80px auto 15px auto;
 }
 
@@ -392,9 +393,9 @@
 
 .tituloContratacao {
     font-weight: bold;
-    font-size: 34px;
+    font-size: 32px;
     line-height: 40px;
-    width: 387px;
+    text-align: center;
     margin: 140px auto 50px auto;
     color: #291234;
 }
@@ -694,7 +695,7 @@
     background-image: url(../assets/mobile/logop.png);
     width: 123px;
     height: 37px;
-    margin: 50px 0 30px 50px;
+    margin: 50px 0 30px 40px;
     cursor: pointer;
 }
 
@@ -710,7 +711,7 @@
     width: 31px;
     height: 31px;
     cursor: pointer;
-    margin: 0 0 0 100px;
+    margin: 0 0 0 80px;
 }
 
 .copyright{
@@ -1271,14 +1272,14 @@
         font-size: 60px;
         line-height: 60px;
         width: 686px;
-        margin: 250px 20px 40px 750px;
+        margin: 250px 20px 40px 740px;
     }
     
     .textoMain {
         font-size: 30px;
         line-height: 40px;
         width: 466px;
-        margin: 0 0 0 750px;
+        margin: 0 0 0 740px;
     }
     
     .blackBar {
