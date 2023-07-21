@@ -231,7 +231,7 @@ const onSubmit = async (e) => {
           <div className={styles.imgBall3}></div>
           <div className={styles.infosContato}>
             <div className={styles.emailtituloContato}>Email</div>
-            <div className={styles.emailendContato}>contato@uptalentrh.com.br</div>
+            <div className={styles.emailendContato}>fabi@uptalentrh.com.br</div>
             <div className={styles.endtituloContato}>Endereço</div>
             <div className={styles.enderecoContato}>Vila Madalena - São Paulo, SP
             </div>
